@@ -1,5 +1,5 @@
 # becode-learning
-Exercises and small projects from BeCode (HTML5, CSS3, JavaScript, jQuery, AJAX, JSON, PHP, Sass)
+Exercises and small projects from BeCode, the web/mobile development bootcamp I was enrolled in from November 2017 to June 2018.
 
 
 ## Introduction
