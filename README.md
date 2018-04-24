@@ -16,4 +16,4 @@ A repository grouping some of the exercises completed at BeCode from November 20
 - Basic and more advanced **AJAX/JSON** exercises 
 - Basic and more advanced **PHP** exercises
 - CRUD exercises using **PHP** and **MySQL**
-- Playing around with HTML Canvas
+- Playing around with HTML **Canvas**
