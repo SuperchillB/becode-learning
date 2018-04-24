@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+		}
+		
+		#container {
+			height: 300px;
+			width: 300px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		#message {
+			height: 200px;
+			width: 250px;
+			background-color: #232323;
+			color: white;
+			font-size: 40px;
+			font-family: Courier;
+			margin-bottom: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		button {
+			height: 40px;
+			width: 40px;
+			box-shadow: none;
+			border: 3px solid #232323;
+			outline: none;
+			font-size: 25px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<div id="message"></div>
+		<div class="buttons">
+			<button id="plus">+</button>
+			<button id="minus">-</button>
+		</div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+		
+		let clicks = 0;
+		$('#plus').on('click', function(e){
+			clicks++;
+			$('#message').text(clicks);
+		})
+		$('#minus').on('click', function(e){
+			clicks--;
+			$('#message').text(clicks);
+		})
+
+	</script>
+
+</body>
+</html>

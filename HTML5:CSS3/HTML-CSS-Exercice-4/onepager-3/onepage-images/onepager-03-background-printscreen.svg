@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1610px" height="250px" viewBox="0 0 1610 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>deco-icons-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="deco-icons-hero">
+            <path d="M1575.94857,46 L1568.84166,52.3364068 C1567.19171,53.8074687 1566.13993,53.2420485 1566.49584,51.052471 L1567.49946,44.878319 C1562.50187,42.7413592 1559,37.7805821 1559,32 C1559,24.2680135 1565.26513,18 1572.99998,18 L1587.00002,18 C1594.73199,18 1601,24.2663135 1601,32 C1601,39.7319865 1594.73487,46 1587.00002,46 L1575.94857,46 L1575.94857,46 Z" id="Rectangle-7-Copy-3" stroke="#D9DCE3" stroke-width="2"></path>
+            <circle id="Oval-12-Copy-5" stroke="#D9DCE3" stroke-width="2" cx="1571.5" cy="32.5" r="2.5"></circle>
+            <circle id="Oval-12-Copy-6" stroke="#D9DCE3" stroke-width="2" cx="1580.5" cy="32.5" r="2.5"></circle>
+            <circle id="Oval-12-Copy-7" stroke="#D9DCE3" stroke-width="2" cx="1589.5" cy="32.5" r="2.5"></circle>
+            <polygon id="Rectangle-9-Copy-8" stroke="#D9DCE3" stroke-width="2" points="1271 126 1301 126 1301 166 1271 166"></polygon>
+            <polygon id="Rectangle-9-Copy-6" stroke="#D9DCE3" stroke-width="2" points="1271 126 1301 126 1301 158 1271 158"></polygon>
+            <polygon id="Rectangle-11-Copy-4" fill="#D9DCE3" points="1277 134 1294 134 1294 136 1277 136"></polygon>
+            <polygon id="Rectangle-11-Copy-5" fill="#D9DCE3" points="1277 141 1294 141 1294 143 1277 143"></polygon>
+            <polygon id="Rectangle-11-Copy-6" fill="#D9DCE3" points="1274 161 1301 161 1301 163 1274 163"></polygon>
+            <polygon id="Rectangle-48-Copy" stroke="#D9DCE3" stroke-width="2" points="1466 50 1494 50 1494 72 1466 72"></polygon>
+            <polygon id="Rectangle-48-Copy-2" fill="#D9DCE3" points="1473 60 1487 60 1487 62 1473 62"></polygon>
+            <path d="M1472,43 C1472,39.1340068 1475.14199,36 1478.99456,36 L1481.00544,36 C1484.86843,36 1488,39.1418733 1488,43 L1488,50 L1472,50 L1472,43 Z" id="Rectangle-54-Copy" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M1373,178.003656 C1373,175.240213 1375.24325,173 1378.00366,173 L1409.99634,173 C1412.75979,173 1415,175.243254 1415,178.003656 L1415,209.996344 C1415,212.759787 1412.75675,215 1409.99634,215 L1378.00366,215 C1375.24021,215 1373,212.756746 1373,209.996344 L1373,178.003656 Z" id="Rectangle-93-Copy-5" stroke="#D9DCE3" stroke-width="2"></path>
+            <text id="31" font-family="AdelleSans-SemiBold, Adelle Sans" font-size="20" font-weight="500" letter-spacing="2.22222233" fill="#D9DCE3">
+                <tspan x="1383.5" y="206.0835">31</tspan>
+            </text>
+            <polygon id="Rectangle-241-Copy-8" fill="#D9DCE3" points="1372 183 1414 183 1414 185 1372 185"></polygon>
+            <circle id="Oval-12-Copy-8" stroke="#D9DCE3" stroke-width="2" cx="1590" cy="215" r="20"></circle>
+            <polygon id="Rectangle-19-Copy" fill="#D9DCE3" points="1587.52513 218.096194 1583.98959 214.56066 1582.57538 215.974874 1587.52513 220.924621 1597.42462 211.025126 1596.01041 209.610913"></polygon>
+            <polygon id="Rectangle-4" stroke="#D9DCE3" stroke-width="2" points="1489 194 1521 194 1521 216 1489 216"></polygon>
+            <polygon id="Rectangle-5" stroke="#D9DCE3" stroke-width="2" points="1497 194 1521 194 1521 214"></polygon>
+            <polygon id="Rectangle-7" stroke="#D9DCE3" stroke-width="2" points="1513 194 1489 194 1489 214"></polygon>
+            <polygon id="Rectangle-18" stroke="#D9DCE3" stroke-width="2" fill="#E9EDF2" points="1489 200 1489 194 1521 194 1521 200 1505 208"></polygon>
+            <path d="M1364,111 C1364,97.745166 1374.74225,87 1388,87 C1401.25483,87 1412,97.7422516 1412,111 C1412,124.254834 1401.25775,135 1388,135 C1374.74517,135 1364,124.257748 1364,111 Z" id="Rectangle-9" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M1383,80.5 C1383,79.1192881 1384.12893,78 1385.50099,78 L1392.49901,78 C1393.88027,78 1395,79.1096621 1395,80.5 C1395,81.8807119 1393.87107,83 1392.49901,83 L1385.50099,83 C1384.11973,83 1383,81.8903379 1383,80.5 Z" id="Rectangle-11" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-12" fill="#D9DCE3" points="1388 83 1390 83 1390 87 1388 87"></polygon>
+            <path d="M1385,111 C1385,109.343146 1386.34652,108 1388,108 C1389.65685,108 1391,109.346517 1391,111 C1391,112.656854 1389.65348,114 1388,114 C1386.34315,114 1385,112.653483 1385,111 Z" id="Rectangle-10" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M1378.88772,97.3773162 C1378.60951,96.895444 1378.76837,96.2828771 1379.25,96.0048095 C1379.72829,95.7286671 1380.34049,95.8935858 1380.61977,96.3773162 L1387.11228,107.622684 C1387.39049,108.104556 1387.23163,108.717123 1386.75,108.995191 C1386.27171,109.271333 1385.65951,109.106414 1385.38023,108.622684 L1378.88772,97.3773162 Z" id="Rectangle-14" fill="#D9DCE3"></path>
+            <path d="M1375.14,101.451646 C1372.57905,104.064567 1371,107.643452 1371,111.591144 C1371,113.086846 1371.22667,114.529606 1371.64754,115.886945" id="Oval-1" stroke="#D9DCE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M1378.1,106.451646 C1376.80097,107.777041 1376,109.592417 1376,111.594869 C1376,112.353559 1376.11498,113.085393 1376.32846,113.773899" id="Oval-2" stroke="#D9DCE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M1546,107 C1546,104.238576 1548.23746,102 1551,102 L1573,102 C1575.76142,102 1578,104.237459 1578,107 L1578,129 C1578,131.761424 1575.76254,134 1573,134 L1551,134 C1548.23858,134 1546,131.762541 1546,129 L1546,107 Z" id="Rectangle-93-Copy-7" stroke="#D9DCE3" stroke-width="2"></path>
+            <polyline id="Path-230" stroke="#D9DCE3" stroke-width="2" points="1546.0708 119.427246 1556.12451 113.009766 1566.93457 125.069336 1577.93945 118.493164"></polyline>
+            <circle id="Oval-12-Copy-9" stroke="#D9DCE3" stroke-width="2" fill="#E9EDF2" cx="1556" cy="113" r="3"></circle>
+            <circle id="Oval-12-Copy-10" stroke="#D9DCE3" stroke-width="2" fill="#E9EDF2" cx="1567" cy="125" r="3"></circle>
+            <path d="M1485,114 L1489,114 L1489,157 L1456,157 L1456,114 L1460,114 C1460,115.104569 1460.89543,116 1462,116 C1463.10457,116 1464,115.104569 1464,114 L1467,114 C1467,115.104569 1467.89543,116 1469,116 C1470.10457,116 1471,115.104569 1471,114 L1474,114 C1474,115.104569 1474.89543,116 1476,116 C1477.10457,116 1478,115.104569 1478,114 L1481,114 C1481,115.104569 1481.89543,116 1483,116 C1484.10457,116 1485,115.104569 1485,114 Z" id="Rectangle-113-Copy-4" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-230" fill="#D9DCE3" points="1462 123 1483 123 1483 125 1462 125"></polygon>
+            <polygon id="Rectangle-230-Copy" fill="#D9DCE3" points="1462 131 1483 131 1483 133 1462 133"></polygon>
+            <polygon id="Rectangle-230-Copy-2" fill="#D9DCE3" points="1462 139 1483 139 1483 141 1462 141"></polygon>
+            <polygon id="Rectangle-230-Copy-3" fill="#D9DCE3" points="1472 147 1483 147 1483 149 1472 149"></polygon>
+            <path d="M143.94857,74 L136.841656,80.3364068 C135.191713,81.8074687 134.139926,81.2420485 134.495844,79.052471 L135.499065,72.8807285 C130.502015,70.7450899 127,65.7827558 127,60 C127,52.2680135 133.271987,46 140.990059,46 L153.009941,46 C160.736437,46 167,52.2663135 167,60 C167,67.7319865 160.728013,74 153.009941,74 L143.94857,74 Z" id="Rectangle-7-Copy-2" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-22-Copy-2" fill="#D9DCE3" points="137 56 157 56 157 58 137 58"></polygon>
+            <polygon id="Rectangle-21-Copy-2" fill="#D9DCE3" points="137 63 153 63 153 65 137 65"></polygon>
+            <circle id="Oval-12" stroke="#D9DCE3" stroke-width="2" cx="78" cy="84" r="16"></circle>
+            <circle id="Oval-9" fill="#D9DCE3" cx="73" cy="80" r="2"></circle>
+            <circle id="Oval-10" fill="#D9DCE3" cx="83" cy="80" r="2"></circle>
+            <path d="M69,87 C69,90 72.6,94 78,94 C83.4,94 87,90 87,87 C82.5,87 73.4999999,87 69,87 Z" id="Oval-11" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-93" stroke="#D9DCE3" stroke-width="2" points="200 78 236 78 236 124 200 124"></polygon>
+            <path d="M200,107.016887 C216.094279,96.7595011 223.031535,115.948226 236,115.948226 L236,124 L200,124 L200,107.016887 Z" id="Path-11" stroke="#D9DCE3" stroke-width="2"></path>
+            <circle id="Oval-10" stroke="#D9DCE3" stroke-width="2" cx="223.5" cy="91.5" r="5.5"></circle>
+            <circle id="Oval-11" fill="#D9DCE3" cx="221.5" cy="92.5" r="1"></circle>
+            <circle id="Oval-14" fill="#D9DCE3" cx="225.5" cy="91.5" r="1"></circle>
+            <circle id="Oval-13" fill="#D9DCE3" cx="226" cy="95" r="1"></circle>
+            <circle id="Oval-12" fill="#D9DCE3" cx="223" cy="89" r="1"></circle>
+            <path d="M133,118.990053 C133,116.786408 134.785246,115 136.990179,115 L165.009821,115 C167.213536,115 169,116.784293 169,118.990053 L169,135.009947 C169,137.213592 167.214754,139 165.009821,139 L136.990179,139 C134.786464,139 133,137.215707 133,135.009947 L133,118.990053 Z" id="Rectangle-61-Copy-2" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-62-Copy-2" fill="#D9DCE3" points="133 120 169 120 169 122 133 122"></polygon>
+            <polygon id="Rectangle-62-Copy-3" fill="#D9DCE3" points="133 126 169 126 169 128 133 128"></polygon>
+            <path d="M223.585786,196.414214 L226.414214,193.585786 L234.485281,201.656854 C235.26633,202.437903 235.26633,203.704233 234.485281,204.485281 C233.704233,205.26633 232.437903,205.26633 231.656854,204.485281 L223.585786,196.414214 Z" id="Rectangle-93-Copy-4" stroke="#D9DCE3" stroke-width="2"></path>
+            <circle id="Oval-3-Copy-7" stroke="#D9DCE3" stroke-width="2" cx="216" cy="187" r="12"></circle>
+            <path d="M213.867775,179.287285 C210.48461,180.220509 208,183.320099 208,187" id="Oval-3-Copy-8" stroke="#D9DCE3" stroke-width="2" stroke-linecap="round"></path>
+            <polygon id="Rectangle-50" stroke="#D9DCE3" stroke-width="2" points="35 211 65 211 65 243 35 243"></polygon>
+            <path d="M41,220.99254 C41,219.339806 42.3465171,218 44,218 C45.6568542,218 47,219.352926 47,220.99254 L47,233.00746 C47,234.660194 45.6534829,236 44,236 C42.3431458,236 41,234.647074 41,233.00746 L41,220.99254 Z" id="Rectangle-52" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M53,220.99254 C53,219.339806 54.3465171,218 56,218 C57.6568542,218 59,219.352926 59,220.99254 L59,233.00746 C59,234.660194 57.6534829,236 56,236 C54.3431458,236 53,234.647074 53,233.00746 L53,220.99254 Z" id="Rectangle-52-Copy" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-48" stroke="#D9DCE3" stroke-width="2" points="31 204 69 204 69 211 31 211"></polygon>
+            <path d="M41,199.001665 C41,197.343891 42.3529255,196 43.9925398,196 L56.0074602,196 C57.6601943,196 59,197.33902 59,199.001665 L59,204 L41,204 L41,199.001665 Z" id="Rectangle-54" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M24,132.005646 C24,129.241104 26.2383594,127 29.0056458,127 L54.9943542,127 C57.7588961,127 60,129.238359 60,132.005646 L60,157.994354 C60,160.758896 57.7616406,163 54.9943542,163 L29.0056458,163 C26.2411039,163 24,160.761641 24,157.994354 L24,132.005646 Z" id="Rectangle-93-Copy" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M30,138 C30,135.790861 31.7953562,134 34,134 C36.209139,134 38,135.795356 38,138 C38,140.209139 36.2046438,142 34,142 C31.790861,142 30,140.204644 30,138 Z" id="Rectangle-93-Copy-2" stroke="#D9DCE3" stroke-width="2"></path>
+            <path d="M30,151 C30,148.790861 31.7953562,147 34,147 C36.209139,147 38,148.795356 38,151 C38,153.209139 36.2046438,155 34,155 C31.790861,155 30,153.204644 30,151 Z" id="Rectangle-93-Copy-3" stroke="#D9DCE3" stroke-width="2"></path>
+            <polygon id="Rectangle-241-Copy-6" fill="#D9DCE3" points="42 137 54 137 54 139 42 139"></polygon>
+            <polygon id="Rectangle-241-Copy-7" fill="#D9DCE3" points="42 150 54 150 54 152 42 152"></polygon>
+            <polygon id="Rectangle-59-Copy-2" stroke="#D9DCE3" stroke-width="2" points="0 9 62 9 62 43 0 43"></polygon>
+            <circle id="Oval-3-Copy-6" stroke="#D9DCE3" stroke-width="2" cx="31" cy="26" r="12"></circle>
+            <path d="M30.668,22.772 C31.606,22.772 31.886,23.22 32.012,24.102 L33.888,23.878 C33.776,22.142 32.754,21.4 31.48,21.246 L31.48,20 L29.702,20 L29.702,21.26 C28.358,21.554 27.28,22.52 27.28,24.074 C27.28,26.104 28.764,26.622 30.108,27 C31.116,27.294 32.04,27.49 32.04,28.428 C32.04,29.212 31.452,29.562 30.57,29.562 C29.338,29.562 29.002,29.002 28.848,27.966 L27,28.316 C27.224,30.29 28.344,30.962 29.59,31.116 L29.59,32.236 L31.382,32.236 L31.382,31.116 C32.908,30.85 34.112,29.898 34.112,28.134 C34.112,26.104 32.614,25.628 31.228,25.25 C30.066,24.956 29.422,24.606 29.422,23.766 C29.422,23.192 29.786,22.772 30.668,22.772 L30.668,22.772 Z" id="$-copy-4" fill="#D9DCE3"></path>
+            <polygon id="Rectangle-241" fill="#D9DCE3" points="47 25 57 25 57 27 47 27"></polygon>
+            <polygon id="Rectangle-241-Copy" fill="#D9DCE3" points="5 25 15 25 15 27 5 27"></polygon>
+            <polygon id="Rectangle-241-Copy-2" fill="#D9DCE3" points="7 17 17 17 17 19 7 19"></polygon>
+            <polygon id="Rectangle-241-Copy-3" fill="#D9DCE3" points="45 17 55 17 55 19 45 19"></polygon>
+            <polygon id="Rectangle-241-Copy-5" fill="#D9DCE3" points="7 33 17 33 17 35 7 35"></polygon>
+            <polygon id="Rectangle-241-Copy-4" fill="#D9DCE3" points="45 33 55 33 55 35 45 35"></polygon>
+            <polygon id="Rectangle-59-Copy-3" stroke="#D9DCE3" stroke-width="2" points="98 172 168 172 168 200 98 200"></polygon>
+            <text id="Abc" font-family="AdelleSans-SemiBold, Adelle Sans" font-size="18" font-weight="500" fill="#D9DCE3">
+                <tspan x="104" y="193">Abc</tspan>
+            </text>
+            <polygon id="Rectangle-27" fill="#D9DCE3" points="140 176 142 176 142 194 140 194"></polygon>
+            <polygon id="Rectangle-59-Copy-3" stroke="#D9DCE3" stroke-width="2" points="98 172 168 172 168 200 98 200"></polygon>
+            <text id="Abc" font-family="AdelleSans-SemiBold, Adelle Sans" font-size="18" font-weight="500" fill="#D9DCE3">
+                <tspan x="104" y="193">Abc</tspan>
+            </text>
+            <polygon id="Rectangle-27" points="140 176 142 176 142 194 140 194"></polygon>
+            <polygon id="Rectangle-26-Copy-2" stroke="#D9DCE3" stroke-width="2" points="275 127 302.461538 127 309 142 275 142"></polygon>
+            <polygon id="Rectangle-25-Copy-2" stroke="#D9DCE3" stroke-width="2" stroke-linecap="square" points="310.4 140 269 140 273.6 159 315 159"></polygon>
+            <polygon id="Rectangle-40-Copy-2" stroke="#D9DCE3" stroke-width="2" fill="#E9EDF2" points="275 134 315 134 315 159 275 159"></polygon>
+        </g>
+    </g>
+</svg>

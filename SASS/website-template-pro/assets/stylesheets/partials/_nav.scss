@@ -1,0 +1,75 @@
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;;
+  font-family: $subtitle;
+  font-weight: $medium;
+  margin: 20px auto;
+  width: 1280px* 0.75;
+   img {
+    height: auto;
+    width: 960px * 0.125;}
+   ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-around;
+      width:60%;
+      text-align:center;
+      padding:0;
+      ul {
+      display: none;
+      width: 102px;
+      float:none;
+        li{
+           width:102px;
+         	 float:left;
+         	 display:list-item;
+         	 position: relative;
+           }}
+       li{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: center;
+              &:hover > ul {
+              	display:flex;
+                flex-direction: column;
+                width: 102px;}
+       // a {
+       //  text-decoration: none;
+       //  color:black;
+       //  font-weight: $bold;
+       //  color: $grey;
+       //  &:hover {
+       //    color: $blue-2;
+       //  }
+            }
+     }
+}
+
+.navbar-dark{
+  @extend .navbar;
+  a{
+    text-decoration: none;
+     font-weight: $bold;
+     color: $grey;
+     &:hover {
+       color: $blue-2;
+  }
+}
+}
+
+
+.navbar-light{
+  @extend .navbar;
+  a{
+    text-decoration: none;
+     font-weight: $bold;
+     color: $white;
+     &:hover {
+       color: $blue-2;
+  }
+}
+}

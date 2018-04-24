@@ -1,0 +1,77 @@
+
+.btn-blue{
+  margin: 30px 0;
+  button{
+    background-color: $blue-1;
+    border: none;
+    border-radius: 2px;
+    color: $white;
+    font-size: 10px;
+    font-weight: $semi-bold;
+    padding: 15px 20px;
+    letter-spacing: 2px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    &:hover{
+      background-color: $white;
+      color: $blue-2;
+    }
+    }
+}
+
+
+.btn-lightblue{
+  button{
+  border: none;
+  border-radius: 2px;
+  background-color: $blue-2;
+  color: $white;
+  font-weight: $semi-bold;
+  padding: 15px 30px;
+  letter-spacing: 1px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+  &:hover{
+    background-color: $white;
+    color: $blue-2;
+  }
+  }
+
+}
+
+.btn-transparent{
+  button{
+    border: solid 2px rgba(255,255,255, 0.8);
+    border-radius:2px;
+    background-color: transparent;
+    padding: 10px 25px;
+    color: $white;
+    font-weight: $semi-bold;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    &:hover{
+      background-color: $white;
+      color: $blue-2;
+  }
+}
+}
+.btn-white{
+
+}
+
+.btn-grey{
+  button{
+    background-color: $grey-btn;
+    border:none;
+    border-radius: 2px;
+    padding:10px 15px;
+    margin: 5px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    &:hover{
+      color: $blue-1;
+      background-color: $background-grey;
+      box-shadow: 0px 20px 15px $light-text;
+    }
+    }
+}

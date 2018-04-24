@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+		}
+		
+		#container {
+			height: 300px;
+			width: 300px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		#message {
+			height: 200px;
+			width: 250px;
+			background-color: #232323;
+			color: white;
+			font-size: 30px;
+			font-family: Courier;
+			margin-bottom: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		button {
+			height: 40px;
+			width: 100px;
+			box-shadow: none;
+			border: 3px solid #232323;
+			outline: none;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		input {
+			height: 32px;
+			width: 100px;
+			outline: none;
+			border: 3px solid #232323;
+			font-size: 16px;
+		}
+
+		#gameArea {
+			display: flex;
+			width: 220px;
+			justify-content: space-between;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<div id="message">Guess a number!</div>
+		<div id="gameArea">
+			<input type="text">
+			<button>GUESS</button>
+		</div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+		
+		let randomNumber = function() {
+			let random = Math.floor(Math.random() * 101);
+			return random;
+		} 
+
+		let message = ['Higher!', 'Lower!', 'You guessed right after ']
+
+		let attempts = 1;
+
+		let numToGuess = randomNumber();
+		console.log(numToGuess);
+
+		$('input').on('keypress', function(e){
+			let key = e.keyCode;
+			if(key == 13) {
+				$('button').click();
+				$('input').val('');
+			}
+		})
+
+		let guessNumber = function() {
+			$('button').on('click', function(){
+				let guess = $('input').val();
+				attempts++;
+				console.log(guess);
+				if (guess != numToGuess) {
+					if (guess < numToGuess) {
+						$('#message').text(message[0]);
+						$('input').val('');
+					} else if (guess > numToGuess) {
+						$('#message').text(message[1]);
+						$('input').val('');
+					} 
+				}
+				else if (guess == numToGuess) {
+					$('#message').text(message[2] + attempts + " attempts!");
+					console.log("correct!");
+				}
+			})
+		}
+
+		guessNumber();
+
+	</script>
+
+</body>
+</html>

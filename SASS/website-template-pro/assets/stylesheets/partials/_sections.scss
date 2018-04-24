@@ -1,0 +1,173 @@
+.index-section-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-section-2{
+  background-color: $background-grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    h3{
+      font-size: $big;
+      font-family: $title;
+      margin-bottom: 0;
+      margin-top: 50px;
+    }
+    p{
+      text-align: center;
+      font-family:$paragraph;
+      color: $grey;
+    }
+    button{
+      margin-bottom: 10px;
+    }
+}
+.index-section-3{
+  background-color: $background-grey;
+  display: flex;
+  justify-content: center;
+}
+.index-section-4{ //leaflet section
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.index-section-5{
+
+}
+
+.index-section-8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+    img{
+      height: 450px;
+      width:auto;
+    }
+    .index-section-8-right{
+    width: 50%;
+    .section-title-left{
+      margin:0 auto;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      h3{
+        line-height: 40px;
+      }
+      hr{
+        align-self: flex-start;
+      }
+      p{
+        margin-top: 0;
+      }
+    }
+    }
+
+}
+.index-section-9{
+  display: flex;
+  align-items:center;
+}
+.index-section-10 {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+//=======================MINIMAL Page
+.minimal-section-1{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: $background-grey;
+    .minimal-section-1-top{
+      margin-bottom: 0px;
+    }
+    hr{
+      width: 1000px;
+      height: 1px;
+      background-color: $dots-light;
+      margin: 60px auto;
+    }
+    .minimal-section-1-bottom{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom:100px;
+      img{
+        height: auto;
+        width: 400px;
+      }
+      .minimal-section-1-bottom-right{
+        margin:0 auto;
+        padding: 0px 50px;
+        width: 475px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: flex-start;
+        h1{
+          font-family: $title;
+          font-size: $big;
+          font-weight: 500;
+          align-self: flex-start;
+          margin: 0;
+        }
+        p{
+          font-family: $paragraph;
+        }
+        p:nth-child(2) {
+        color: $blue-1;
+        font-size: $normal;
+        margin: 0;
+        letter-spacing: 0.5px;
+        font-family:$minimal;
+        font-weight: $light;
+        }
+        p:nth-child(3){
+          margin: 30px 0;
+          color: $grey;
+        }
+
+        }
+      }
+    }
+.minimal-section-2{
+  display: flex;
+  color: $white;
+  h4{
+  font-size: $normal;
+  font-weight: $regular;
+  color: $light-text;
+  font-family: $subtitle;
+  margin:0;
+  }
+  h3{
+  font-size: $big;
+  font-weight: $extra-bold;
+  font-family: $subtitle;
+  margin-top: 0;
+  }
+  .minimal-section-2-left{
+    width:50%;
+    background-color: $blue-1;
+    padding: 150px 100px 100px 100px;
+    p{
+    margin: 40px 0 80px 0;
+    }
+    }
+  .minimal-section-2-right{
+    width: 50%;
+    background-color: $black;
+    padding: 150px 100px 100px 100px;
+  }
+  }

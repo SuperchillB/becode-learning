@@ -1,0 +1,162 @@
+body{
+	color: #232323;
+	text-align: center;
+	margin: 0;
+	/*background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23beffee' fill-opacity='0.48'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
+	background-color: #f4f4f4;
+	background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%2300ffdd' fill-opacity='0.32' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.container{
+	/*background-color: #232323; */
+	display: block;
+	/*margin: 1vw 10vw 1vw 10vw;*/
+	/*height: 60vw;*/
+	height: 100vh;
+}
+
+.sub-container{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+}
+
+h1{
+	font-size: 30vw;
+	margin: 0 auto;
+	font-family: 'Cutive Mono', monospace;
+	font-weight: 300;
+}
+
+span img{
+	height: 15vw;
+	/*margin-bottom: 2vw;*/
+	margin: 0 2vw 2vw 2vw;
+	transform: rotate(90deg);
+	transition: transform ease 0.5s;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation{
+	from{
+		-webkit-transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+/*span img:hover{
+	transform: rotate(450deg);
+}*/
+
+h2{
+	font-size: 5vw;
+	margin-bottom: 2vw;
+	font-family: 'Cutive Mono', monospace;
+	/*text-transform: uppercase;*/
+}
+
+p{
+	font-family: 'Lekton', sans-serif;
+}
+
+button{
+	font-family: 'Lekton', sans-serif;
+	font-style: italic;
+	margin: 2vw auto 2vw auto;
+	outline: none;
+	background-color: #232323;
+	transition: all ease 1s;
+	border: none;
+	color: white;
+	height: 50px;
+	width: 100px;
+	font-size: 14px;
+	box-shadow: 0px 1.5px 0px 0px cyan, 1.5px 0px 0px 0px #f779e8, 0px -1.5px 0px 0px red, -1.5px 0px 0px 0px #89f442;
+	cursor: pointer;
+}
+
+button:hover {
+  	box-shadow: 0px 1.5px 0px 0px red, 1.5px 0px 0px 0px #89f442, 0px -1.5px 0px 0px cyan, -1.5px 0px 0px 0px #f779e8;
+  	background-color: white;
+  	color: #232323;
+}
+
+/*.button a:hover {
+  	color: #fffdc1;
+  	box-shadow: 0px 1.5px 0px 0px red, 1.5px 0px 0px 0px #89f442, 0px -1.5px 0px 0px cyan, -1.5px 0px 0px 0px #f779e8;
+	cursor: pointer;
+}
+.button a:active {
+  	background-color: cyan;
+	transform: translateY(1px);
+}
+.button a:focus {
+	outline: 0;
+}*/
+
+button a{
+	text-decoration: none;
+	color: white;
+	transition: all ease 2s;
+}
+
+
+
+
+.btn{
+	font-family: 'Lekton', sans-serif;
+  	background-color: #232323;
+  	color: white;
+	border: none;
+	transition: all ease 2s;
+	height: 2rem;
+	width: 5rem;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+  	box-shadow: 0px 1.5px 0px 0px cyan, 1.5px 0px 0px 0px #f779e8, 0px -1.5px 0px 0px red, -1.5px 0px 0px 0px #89f442; /* 80's TV */;
+}
+.btn:hover {
+	/*background-color: white;*/
+  color: #fffdc1;
+  box-shadow: 0px 1.5px 0px 0px red, 1.5px 0px 0px 0px #89f442, 0px -1.5px 0px 0px cyan, -1.5px 0px 0px 0px #f779e8; /* 80's TV */;
+	cursor: pointer
+}
+.btn:active {
+	/*box-shadow: 0 2px 2px 0 grey;*/
+  background-color: cyan;
+	transform: translateY(1px);
+	/*border: grey 2px solid;*/
+}
+.btn:focus {
+	outline: 0;
+}
+
+
+
+
+/*@media (max-width: 576px) {
+	main{
+		margin: 40vw 10vw 1vw 10vw;
+		height: 70vw;
+	}
+
+}*/
+
+
+
+#hello{
+	/*border: 1px solid red;*/
+	display: inline;
+	border-radius: 100px;
+	padding: 50px;
+	background-color: blue;
+}
+
+
+
+

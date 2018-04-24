@@ -1,0 +1,460 @@
+// ADD HOVER EFFECT ON CARDS
+
+// INDIVIDUAL CARDS: IMAGE CARDS
+
+.card-img-1{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	cursor: pointer;
+	img{
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
+	}
+	div:last-child{
+		border: 0.5px solid $background-grey;
+		box-shadow: 0px 1px 2px $background-grey;
+		margin-top: -5px;
+		text-align: center;
+		h4{
+			margin-bottom: 8px;
+			font-weight: $extra-bold;
+		}
+		p{
+			margin-top: 0;
+			margin-bottom: 22px;
+			color: $grey;
+			font-size: $tiny;
+		}
+	}
+}
+
+.card-img-2{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	cursor: pointer;	
+	img{
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
+	}
+	p:first-of-type{
+		line-height: 25px;
+		font-size: $tiny;
+		color: $grey;
+	}
+	p:first-child{
+		font-weight: $regular;
+		color: $grey;
+	}
+	div{
+		background-color: $white;
+		padding: 30px 30px 20px 30px;
+		h4{
+			margin-top: 0;
+			margin-bottom: 0;
+			font-weight: $extra-bold;
+		}
+		div{
+			border-top: 0.5px solid $background-grey;
+			display: flex;
+			align-items: flex-start;
+			padding: 16px 0 0 0;
+			p:first-of-type{
+				margin-top: 5px;
+				margin-left: 10px;
+				margin-bottom: 5px;
+				font-size: $micro;
+				font-weight: $regular;
+			}
+			img{
+				height: 22px;
+				width: 22px;
+				align-self: center;
+				border-radius: 3px;
+			}
+		}
+	}
+}
+
+.card-img-3{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	cursor: pointer;
+	text-align: center;
+	position: relative; // remove
+	img{
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
+		border: 1px solid $light-text;
+		border-radius: 3px;
+		overflow: hidden;
+		display: block; // remove
+	}
+	h4{
+		margin-top: 10px;
+		margin-bottom: 0px;
+		font-weight: $extra-bold;
+	}
+	p{
+		margin-top: 5px;
+		font-size: $tiny;
+		color: $grey;
+	}
+	strike{
+		font-size: 10px;
+		color: $light-text;
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 262px;
+		width: 100%;
+		transition: all .5s ease;
+		background-color: rgba(0, 0, 0, 0);
+		border-radius: 3px;
+		overflow: hidden;
+		color: $white;
+		// display: none;
+		button{ // ADD BTN-BLUE CLASS
+			margin-top: 120px;
+			cursor: pointer;
+			background-color: $blue-1;
+			color: $white;
+			display: none;
+		}
+	}
+	&:hover .overlay {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	&:hover .overlay button {
+		display: inline-block;
+	}
+}
+
+// INDIVIDUAL CARDS: STATS CARDS
+
+.card-stats{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 180px;
+	font-family: $subtitle;
+	border: 1px solid $background-grey;
+	border-radius: 5px;
+	svg{
+		width: 40px;
+		height: 40px;
+	}
+	h3{
+		font-size: 30px;
+		font-weight: $extra-bold;
+		margin-top: 10px;
+		margin-bottom: 0;
+		color: $white;
+	}
+	p{
+		margin-top: 2px;
+		color: $light-text;
+	}
+}
+
+// INDIVIDUAL CARDS: POSTS CARDS
+
+.card-post{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+	color: $white;
+	cursor: pointer;
+	transition: all ease 0.5s;
+	div:first-of-type{
+		font-size: $micro;
+		font-weight: $light;
+		color: $light-text;
+		font-family: $paragraph;
+	}
+	div:last-of-type{
+		h4{
+		font-family: $subtitle; // or $paragraph
+		margin-bottom: 5px;
+		margin-top: 0px;
+		}
+		div{
+			display: flex;
+			align-items: center;
+			img{
+				width: 22px;
+				height: 22px;
+				border-radius: 3px;
+			}
+			p{
+				margin-left: 10px;
+			}
+		}
+	}
+	&:hover{
+		box-shadow: none;
+	}
+}
+
+// INDIVIDUAL CARDS: REG CARDS
+
+.card-reg{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	cursor: pointer;
+	background-color: $white;
+	padding: 30px 30px 30px 30px;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 4px $light-text;
+	h4{
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: $extra-bold;
+	}
+	p:nth-of-type(1){
+		font-weight: $regular;
+		color: $grey;
+		line-height: 20px;
+		font-size: $tiny;
+	}
+	div{
+		border-top: 0.5px solid $background-grey;
+		display: flex;
+		align-items: flex-start;
+		padding: 16px 0 0 0;
+		p:first-of-type{
+			margin-top: 5px;
+			margin-left: 10px;
+			margin-bottom: 5px;
+			font-size: $micro;
+			font-weight: $regular;
+		}
+		img{
+			height: 22px;
+			width: 22px;
+			align-self: center;
+			border-radius: 3px;
+		}
+	}
+}
+
+// INDIVIDUAL CARDS: PROFILE CARDS
+
+.card-profile{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	background-color: $white;
+	text-align: center;
+	img{
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
+	}
+	div{
+		margin-top: 10px;
+		margin-bottom: 25px;
+		text-align: center;
+		i{
+			color: $grey;
+			cursor: pointer;
+			&:hover{
+				color: $blue-1;
+			}
+		}
+	}
+	h4{
+		margin-bottom: 8px;
+		font-weight: $extra-bold;
+	}
+	p{
+		margin-top: 0;
+		margin-bottom: 22px;
+		color: $grey;
+		font-size: $tiny;
+	}
+}
+
+// INDIVIDUAL CARDS: ICON CARDS
+
+.card-icon{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	background-color: $white;
+	padding: 30px 30px 30px 25px;
+	box-sizing: border-box;
+	border: 1px solid $light-text;
+	border-radius: 4px;
+	h4{
+		font-size: $normal;
+		font-weight: $extra-bold;
+		margin-bottom: 0;
+	}
+	p{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: $tiny;
+		line-height: 25px;
+		color: $grey;
+	}
+	svg{
+		margin-top: 10px;
+	}
+}
+
+.card-icon-left{
+	align-items: flex-start;
+	svg{
+		height: 40px;
+		width: 40px;
+	}
+	h4{
+		margin-top: 20px;
+	}
+}
+
+.card-icon-center{
+	align-items: center;
+	text-align: center;
+	svg{
+		height: 45px;
+		width: 45px;
+	}
+	h4{
+		margin-top: 45px;
+	}
+}
+
+// GROUP
+
+.index-section-5-cards{
+	max-width: (1280px - 320px) / 1280px * 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	.card-img-1{
+		max-width: 300px;
+		margin: 10px;
+	}
+}
+
+.photography-section-2-cards{
+	@extend .index-section-5-cards;
+	.card-img-1{
+		max-width: 300px;
+		margin: 10px;
+	}	
+}
+
+.blog-grig-section-1-cards{
+	@extend .index-section-5-cards;
+	.card-img-2{
+		max-width: 300px;
+		margin: 10px;
+	}
+}
+
+.shop-section-1-cards{
+	max-width: 100%;
+	margin: 0 auto 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	.card-img-3{
+		max-width: 260px;
+		margin: 24px;
+	}
+}
+
+.index-section-10-posts{
+	@extend .index-section-5-cards;
+	.card-post{
+		max-width: 300px;
+		height: 340px;
+		margin: 10px;
+	}
+	.card-post:nth-of-type(1){
+		background-image: url("../images/23545-825x600.jpg");
+		background-size: 155%;
+		background-position: -80px 0;
+	}
+	.card-post:nth-of-type(2){
+		background-image: url("../images/photography3-825x600.jpg");
+		background-size: 155%;
+		background-position: -80px 0;
+	}
+	.card-post:nth-of-type(3){
+		background-image: url("../images/aaron-burden-55603-825x600.jpg");
+		background-size: 155%;
+		background-position: -80px 0;
+	}
+}
+
+.minimal-section-3-cards{
+	@extend .index-section-5-cards;
+	.card-reg{
+		max-width: 300px;
+		margin: 10px;
+	}
+}
+
+.about-section-5-cards{
+	@extend .index-section-5-cards;
+	.card-reg{
+		max-width: 300px;
+		margin: 10px;
+	}	
+}
+
+.d-agency-section-7-cards{
+	@extend .index-section-5-cards;
+	.card-reg{
+		max-width: 300px;
+		margin: 10px;
+	}	
+}
+
+.author-section-1-cards{
+	@extend .index-section-5-cards;
+	.card-reg{
+		max-width: 300px;
+		margin: 10px;
+	}		
+}
+
+.about-section-7-cards{
+	@extend .index-section-5-cards;
+	justify-content: center;
+	.card-profile{
+		max-width: 292px;
+		margin: 13px;
+	}		
+}
+
+.section-style-section-2-cards{
+	@extend .index-section-5-cards;
+	.card-icon{
+		max-width: 300px;
+		margin: 10px;
+	}	
+}
+
+.portfolio-1-section-2-cards{
+	@extend .index-section-5-cards;
+	.card-icon{
+		max-width: 300px;
+		margin: 10px;
+	}
+}

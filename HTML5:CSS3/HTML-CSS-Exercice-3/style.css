@@ -1,0 +1,284 @@
+/*titles: #4b8fc3*/
+/*icons: #368ec8*/
+
+* {
+	box-sizing: border-box;
+}
+html, body{
+	/*height: 100vh;*/
+	/*width: 100vw;*/
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: #b7b7b7;
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 12px;
+}
+
+#container{
+	/*width: 95vw;*/
+	/*width: 80%;*/
+	max-width: 700px;
+	margin: 60px auto;
+	background-color: #f1f1f1;
+	border-collapse: collapse;
+	padding-left: 20px;
+}
+
+/*================== Resume div ==================*/
+#resume-td{
+	padding-left: 35px;
+}
+#resume{
+	height: 70px;
+	background-color: #3e91cd;
+	display: inline-block;
+	width: 90px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 10px;
+	font-size: 18px;
+	margin-top: -1px;
+	margin-bottom: 20px;
+}
+
+/*================== I. HEADER ==================*/
+
+.header{
+	/*background-color: grey;*/
+}
+.name{
+	width: 57%;
+	height: 150px;
+	vertical-align: top;
+	padding-left: 30px;
+	color: #438dc3;
+}
+#function{
+	color: black;
+	line-height: 0px;
+}
+.name table tr:nth-of-type(1){
+	font-size: 47px;
+	font-weight: bold;
+}
+.name table tr:nth-of-type(2){
+	font-size: 18.5px;
+	padding-top: 0;
+}
+.contact{
+	height: 150px;
+	vertical-align: top;
+	padding-left: 10px;
+}
+.contact i{
+	color: #368ec8;
+	margin-right: 7px;
+	font-size: 14px;
+}
+
+/*================== II. BODY ==================*/
+
+/*___________________ II.A) Left ___________________*/
+#left-td{
+	vertical-align: top;
+}
+.left{
+	padding-bottom: 30px;
+	padding-left: 58px;
+}
+#no-section-title{
+	height: 16px;
+}
+
+/*-------------------- II.A.1) Job Experience --------------------*/
+.job-experience{
+	width: 95%;
+	border-collapse: collapse;
+}
+.date{
+	width: 30%;
+	font-size: 13px;
+	font-weight: bold;
+}
+.employer{
+	font-weight: bold;
+	color: #3992cd;
+}
+.job-title{
+	font-weight: bold;
+	line-height: 8px;
+}
+.job-description{
+	padding-bottom: 25px;
+	padding-top: 8px;
+}
+.job-blank{
+	height: 75px;
+}
+
+
+/*-------------------- II.A.2) Education --------------------*/
+.education{
+	width: 100%;
+	border-collapse: collapse;
+}
+.university{
+	padding-bottom: 33px;
+    padding-top: 8px;
+}
+
+
+/*___________________ II.B) Right ___________________*/
+.right{
+	width: 100%;
+	vertical-align: top;
+	/*padding-right: 8px;*/
+	padding-left: 12px;
+}
+.section-title{
+	padding-left: 3px;
+	font-size: 14px;
+	color: #3992cd;
+	font-weight: bold;
+}
+
+/*-------------------- II.B.1) Skills --------------------*/
+.skills{
+	width: 93%;
+	padding-bottom: 18px;
+	border-bottom: 0.5px solid #3f90cc;
+}
+
+progress{
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 10px;
+}
+
+::-webkit-progress-bar {
+  background-color: #f1f1f1;
+}
+
+::-webkit-progress-value {
+  background-color: #4091d0;
+}
+
+.skills-top{
+	width: 20%;
+	font-size: 10px;
+	padding-bottom: 5px;
+}
+.skills-top:nth-of-type(4){
+	text-align: right;
+}
+
+.skill-width{
+	width: 55%;
+}
+.skill-width-2{
+	width: 49.6%;
+}
+.skills-blank{
+	padding-bottom: 15px;
+}
+
+
+/*-------------------- II.B.2) Personal skills --------------------*/
+#section-title-2{
+	padding-top: 30px;
+}
+.personal-skills{
+	width: 93%;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	border-bottom: 0.5px solid #3f90cc;
+}
+
+
+/*-------------------- II.B.3) Work/Play --------------------*/
+#section-title-3{
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+.work-play-balance{
+	width: 93%;
+	font-size: 8px;
+	border-collapse: collapse;
+	margin-bottom: 25px;
+}
+#work-play-balance{
+	padding-bottom: 30px;
+}
+.work-play-left-td{
+	width: 50%;
+}
+.work-play-right-td{
+	text-align: right;
+	width: 35%;
+}
+.work-play-blank{
+	height: 8px;
+}
+.work-td{
+	width: 10%;
+}
+.play-td{
+	width: 10%;
+}
+#work{
+	background-color: rgba(57, 145, 205, 0.8);
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	color: white;
+	transform: rotateZ(-70deg);
+	margin-right: -15px;
+	font-size: 16px;
+	padding-top: 10px;
+}
+#play{
+	background-color: rgba(57, 145, 205, 0.8);
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: white;
+	transform: rotateZ(-70deg);
+	margin-left: -25px;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+#work-play-last-tr{
+	width: 100%;
+	height: 30px;
+	border-collapse: collapse;
+}
+#work-play-last-tr td{
+	border-bottom: 0.5px solid #3f90cc;
+}
+.work-play-subtitle{
+	font-size: 10px;
+	color: #3c91c8;
+}
+
+
+
+/*================== III. FOOTER ==================*/
+tfoot tr{
+	/*width: 100%;*/
+	height: 20px;
+	background-color: #3f90cc;
+}
+
+
+
+
+

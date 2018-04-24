@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+		}
+		
+		#container {
+			height: 600px;
+			width: 600px;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			border: 2px solid black;
+			overflow: hidden;
+			position: relative;
+		}
+
+		#square {
+			height: 70px;
+			width: 70px;
+			background-color: #232323;
+			position: relative;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<div id="square"></div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+
+		let counter = 0;
+
+		$(window).on('keydown', function(e){
+			let key = e.keyCode;
+			counter++;
+			let newPosition = counter*10 + "px";
+			switch (key) {
+				case 38: // up
+					if($('#square').position().top <= 5) {
+						$('#square').css({top: 265});
+					} else {
+						$('#square').animate({
+							top: "-=10"
+						}, 100)
+						console.log('up');
+					}
+					break;
+				case 39: // right
+					if($('#square').position().left >= 530) {
+						$('#square').css({left: 0});
+					} else {
+						$('#square').animate({
+							left: "+=10"
+						}, 100)
+						console.log('right');
+					}
+					break;
+				case 40: // down
+					if($('#square').position().top >= 530) {
+						$('#square').css({top: -265});
+					} else {
+						$('#square').animate({
+							top: "+=10"
+						}, 100)
+						console.log('down');
+					}
+					break;
+				case 37: // left
+					if($('#square').position().left <= 0) {
+						$('#square').css({left: 530});
+					} else {
+						$('#square').animate({
+							left: "-=10"
+						}, 100)
+						console.log('left');
+					}
+					break;
+			}
+
+			
+			// if($('#square').offset().left < (max - 50) {
+
+			// }
+		})
+
+		// let position = function() {
+		// 	$(window).mousemove(function(event){
+		// 		let x = event.pageX;
+		// 		let y = event.pageY;
+		// 		console.log(x);
+		// 	})
+		// }
+
+
+// $(function(){
+//     var spaceship = $('<div id="spaceshipContainer"/>');
+//     var cS = $('#centerSpace').append(spaceship);
+//     var limits = {width: cS.width()-spaceship.width() , height:cS.height()-spaceship.height()};
+//     $(document).keypress(function(e){
+//         var position = $('#spaceshipContainer').position();
+
+        
+//         switch(e.keyCode){
+            
+//             case 37:
+//                 position.left -= 10;
+//                 break;
+//             case 38:
+//                 position.top -= 10;
+//                 break;
+//             case 39:
+//                 if($('#square').position().left > 530) {
+// 					$('#square').css({left: 0});
+// 				} else {
+// 					position.left += 10;
+// 				}
+//                 break;
+//             case 40:
+//                 position.top += 10;
+//                 break;
+//         }
+        
+//         position.left = Math.max(Math.min(position.left, limits.width),0);
+//         position.top = Math.max(Math.min(position.top, limits.height),0);
+        
+//         spaceship.css({left:position.left, top:position.top});
+//     });
+// });
+
+
+
+
+		
+	</script>
+
+</body>
+</html>

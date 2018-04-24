@@ -1,0 +1,204 @@
+body{
+	box-sizing: border-box;
+}
+
+/* ========================= NAVBAR ========================= */
+
+.navbar-light .navbar-toggler {
+	outline: none;
+}
+/*nav{
+	background-color: #232323 !important;
+}
+nav a{
+	color: white !important;
+}*/
+.navbar-dark .navbar-toggler{
+	outline: none;
+	border: none;
+}
+
+/* ========================= JUMBOTRON ========================= */
+
+.jumbotron-style{
+	background-image: url("images/000037.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: inset 0 0 0 2000px rgba(55, 62, 70, 0.8);
+	color: white;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.jumbotron-style h1{
+	text-shadow: 0px 1.5px 0px cyan, 1.5px 0px 0px #f779e8, 0px -1.5px 0px red, -1px 0px 0px #89f442;
+	font-size: 90px;
+}
+.jumbotron-style a{
+	background-color: transparent;
+	/*border-color: white;*/
+	border: none;
+	text-shadow: none;
+	margin-top: 50px;
+	border-radius: 0px;
+	/*box-shadow: 0px 1.5px 0px 0px cyan, 1.5px 0px 0px 0px #f779e8, 0px -1.5px 0px 0px red, -1.5px 0px 0px 0px #89f442;*/
+	transition: text-shadow ease 0.5s;
+}
+.jumbotron-style a:hover{
+	background-color: transparent;
+	/*box-shadow: 0px 1.5px 0px 0px red, 1.5px 0px 0px 0px #89f442, 0px -1.5px 0px 0px cyan, -1.5px 0px 0px 0px #f779e8;*/
+	text-shadow: 0.5px 0.5px 0px blue, 1px 1px 0px red, 1.5px 1.5px 0px white, 2px 2px 0px blue, 2.5px 2.5px 0px red, 3px 3px 0px white, 3.5px 3.5px 0px blue, 4px 4px 0px red, 4.5px 4.5px 0px white;
+	/*border-color: white;*/
+}
+.jumbotron-style a:active, .jumbotron-style a:focus{
+	outline: none !important;
+	background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* ========================= NEWS PANELS ========================= */
+
+aside{
+	/*height: 100vh;*/
+	padding: 50px 50px;
+	margin: 0 auto;
+}
+aside > div{
+	margin-top: 40px;
+}
+/*.news-box{
+	height: 300px;
+	margin: 10px;
+	background-color: #232323;
+	color: white;
+	transition: background-color ease 0.3s;
+}
+.news-box:hover{
+	background-color: white;
+	color: #232323;
+	cursor: pointer;
+}
+.news-box h3{
+	border-bottom: 1px solid red;
+}*/
+
+
+.card-style{
+	background-color: #232323 !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: white;
+	padding: 20px;
+	transition: background-color ease 0.3s;
+}
+.card-style img{
+	opacity: 0.8;
+}
+.card-style:hover{
+	background-color: white !important;
+	color: #232323;
+	cursor: pointer;
+}
+.card-style h3{
+	border-bottom: 1px solid red;
+	margin-top: 15px;
+}
+
+
+#card-columns{
+	column-count: 1;
+}
+@media(min-width: 560px){
+	#card-columns{
+		column-count: 2;
+	}
+}
+@media(min-width: 992px){
+	aside{
+		padding-right: 200px;
+		padding-left: 200px;
+	}
+}
+
+/* ========================= FOOTER ========================= */
+
+footer{
+	font-size: 10px;
+	color: #232323;
+}
+
+
+
+
+/*______________________________________________  MENU  ______________________________________________*/
+
+.menu{
+	margin-top: 50px;
+}
+.list-group-item.active{
+	background-color: #232323 !important;
+	border: none !important;
+}
+.list-group-item{
+	border: none !important;
+}
+.list-group-item:first-child{
+	border-radius: 0 !important;
+}
+.list-group-item:last-child{
+	border-radius: 0 !important;
+}
+
+
+/*______________________________________________  GALLERY  ______________________________________________*/
+
+
+
+
+
+/*______________________________________________  FIND-US  ______________________________________________*/
+
+.find-us-container-style{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+/*______________________________________________  CONTACT  ______________________________________________*/
+
+.contact-header-style{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.form-container-style{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 70vh;
+	max-width: 500px !important;
+}
+.form-control:focus{
+	border-color: #232323 !important;
+	box-shadow: none !important;
+	background-color: #232323 !important;
+	color: white !important;
+}
+.form-container-style button{
+	margin: 0 auto;
+	background-color: transparent !important;
+	font-size: 30px;
+	cursor: pointer;
+	transition: all ease 1s;
+}
+.form-container-style button:hover{
+	color: white;
+	text-shadow: 1px 1px 0px red, 1.5px 1.5px 0px white, 2px 2px 0px blue, 2.5px 2.5px 0px red, 3px 3px 0px white, 3.5px 3.5px 0px blue;
+}
+
+
+
+

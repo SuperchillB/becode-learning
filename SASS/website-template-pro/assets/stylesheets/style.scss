@@ -1,0 +1,31 @@
+// Modules & Variables
+@import "modules/colours";
+@import "modules/fontstack";
+
+
+// Partials
+@import "partials/blocks";
+@import "partials/buttons";
+@import "partials/cards";
+@import "partials/dots";
+@import "partials/figures";
+@import "partials/footer";
+@import "partials/headers";
+@import "partials/jumbotron";
+@import "partials/logos";
+@import "partials/nav";
+@import "partials/sections";
+@import "partials/text";
+@import "partials/top-section";
+@import "partials/tweets";
+
+
+// Third-party
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  width:1280px;
+}

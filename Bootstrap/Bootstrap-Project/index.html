@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Mujigae</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        $('a[href^="#"]').on('click', function (e) {
+	          e.preventDefault();
+	          var target = this.hash;
+	          $('html, body').animate({
+	            'scrollTop': $(target).offset().top
+	          }, 600, 'swing');
+	        });
+      	});
+	</script>
+</head>
+<body id="mujigae">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	<a class="navbar-brand" href="#mujigae">MUJIGAE | 무지개</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="menu.html">Menu</a>
+			<a class="nav-item nav-link" href="gallery.html">Gallery</a>
+			<a class="nav-item nav-link" href="find-us.html">Find Us</a>
+			<a class="nav-item nav-link" href="contact.html">Contact</a>
+		</div>
+	</div>
+</nav>
+
+<section class="jumbotron-fluid jumbotron-style">
+	<div class="container">
+		<h1 class="display-3 text-center">Mujigae<br>무지개</h1>
+		<p class="lead text-center">Your favourite Korean joint is just round the corner.</p>
+		<p class="lead text-center">
+			<a class="btn btn-primary btn-lg" href="#news" role="button">News <br>
+			&#9662;</a>
+		</p>
+	</div>
+</section>
+
+<!-- <aside id="news">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-11 col-xs-12 col-md-4 news-box">
+				<h3>DEALS</h3>
+				<div>
+					<p>Discover this week's special lunch deals!</p>
+				</div>
+			</div>
+			<div class="col-11 col-xs-12 col-md-4 news-box">
+				<h3>CULTURE</h3>
+				<div>
+					<h4>Happy Chuseok!<br>
+					추석 잘 보네세요!</h4>
+					<hr>
+					<p>What are we eating today?</p>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-11 col-xs-12 col-md-4 news-box">
+				<h3>EVENTS</h3>
+				<div>
+					<h4>Friday 8 December</h4>
+					<p>Casker / 케스커 (Band)</p>
+				</div>
+			</div>
+			<div class="col-11 col-xs-12 col-md-4 news-box">
+				<h3>CULTURE</h3>
+				<div>
+					<h4>The Art of Korean Desserts</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</aside> -->
+
+<aside id="news">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="card-columns" id="card-columns">
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://assets3.thrillist.com/v1/image/1712218/size/tmg-article_default_mobile.jpg" alt="Card image cap">
+					<div class="card-block">
+						<h3 class="card-title">DEALS</h3>
+						<p class="card-text">Discover this week's special lunch deals!</p>
+						<p class="card-text"><small class="text-muted">Last updated 6 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="http://cfile8.uf.tistory.com/image/143D363850641E4C11CE94" alt="Card image cap">
+					<div class="card-block">
+						<h3 class="card-title">CULTURE</h3>
+						<h4>Happy Chuseok!<br>
+						추석 잘 보네세요!</h4>
+						<p class="card-text">Chuseok, literally "Autumn eve", once known as hangawi, is a major harvest festival and a three-day holiday in North Korea and South Korea celebrated on the 15th day of the 8th month of the lunar calendar on the full moon.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+					</div>
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://previews.123rf.com/images/coffeemate/coffeemate1503/coffeemate150300065/37754418-Korean-desserts-set-with-Tteok-Red-bean-porridge-and-tea-Stock-Photo.jpg" alt="Card image cap">
+					<!-- alternative image: http://www.biggirlssmallkitchen.com/wp-content/uploads/2015/03/Gyeongdan-19-690x460.jpg -->
+					<div class="card-block">
+						<h3 class="card-title">FOOD</h3>
+						<h4>The Art of Korean Desserts</h4>
+						<p class="card-text">Yes, Koreans do have a sweet tooth.</p>
+						<p class="card-text"><small class="text-muted">Last updated 2 weeks ago</small></p>
+					</div>
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://vignette1.wikia.nocookie.net/kindie/images/4/4c/Casker_5.png/revision/latest?cb=20150907012457&path-prefix=es" alt="Card image cap">
+					<div class="card-block">
+						<h3 class="card-title">EVENTS</h3>
+						<h4>Friday 8 December</h4>
+						<p class="card-text">Casker (캐스커) is a Korean indie electronic lounge/pop duo officially debuted in 2003 under pastelmusic. The duo is formed by producer Lee Jun Oh and vocalist Yung Jin who joined Casker for their second album release in 2005.</p>
+						<p class="card-text">Free concert.</p>
+						<p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+					</div>
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://media03.cdn.agenda.be/be18e86311706e3ab5f817e53a5300ec5212c8cb.png" alt="Card image cap">
+					<div class="card-block">
+						<h3 class="card-title">EVENTS</h3>
+						<h4>June 2018</h4>
+						<p class="card-text">Made In Asia 2018: Mujigae has confirmed its participation in MIA 2018. More news in a couple months' time.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="http://cfile10.uf.tistory.com/image/172CA24E507988CE192F2C" alt="Card image cap">
+					<div class="card-block">
+						<h3 class="card-title">FOOD</h3>
+						<p class="card-text">Guksu (국수) has finally made its way to Brussels, and can only be found at Mujigae!</p>
+						<p class="card-text"><small class="text-muted">Last updated 6 days ago</small></p>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</aside>
+
+<footer>
+	<div class="d-flex justify-content-center align-items-center">
+		<div>© 2017 Mujigae</div>
+	</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

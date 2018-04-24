@@ -1,0 +1,42 @@
+.tweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 125px auto;
+    .fa-twitter{
+      font-size: $big-grig;
+      padding: 20px;
+    }
+    p{
+      font-family: $paragraph;}
+    p:nth-of-type(2){
+          color: $grey;
+          width: 60%;
+          margin: 0 auto;
+          line-height: 25px;
+          padding: 10px;
+          letter-spacing: 0.5px;
+          font-size: $small;
+        }
+    p:nth-of-type(3){
+        margin: 0;
+        font-size: $tiny;
+        font-family: $subtitle;
+        font-weight: $extra-bold;
+        text-align: center;
+        padding: 5px;
+      }
+    p:nth-of-type(4){
+      color: $grey;
+      margin-top: 0;
+      font-size: $tiny;
+    }
+}
+
+
+
+.tweet-sans {
+ @extend .tweet
+}

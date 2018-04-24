@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		#message {
+			height: 50px;
+			width: 300px;
+			border: 1px solid black;
+			margin-top: 50px;
+			transition: all ease 1s;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			opacity: 0;
+			transition: all ease 1s;
+		}
+		
+
+	</style>
+
+</head>
+<body>
+
+	<form>
+		<input id="name" type="text" placeholder="Name">
+		<input id="firstname" type="text" placeholder="First name">
+		<input id="email" type="text" placeholder="Email">
+		<input id="phone" type="text" placeholder="Phone number">
+		<button id="btn">Submit</button>
+	</form>
+	<div id="message"></div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+
+		let inputs = $('input');
+		let regEmail = /.+@.+\..+/;
+		let regPhone = /^\d+$/;
+		let regText = /^[-a-zA-Z]+$/;
+		
+		$('#btn').on('click', function(e) {
+			for(let i = 0, length1 = inputs.length; i < length1; i++){
+				if (inputs[i].value == "") {
+					alert('Please fill in the empty field(s)');
+					e.preventDefault();
+					return false;
+				}
+			}
+			if (regEmail.test($('#email').val()) == false) {
+				$('#message').text('Please enter a correct email address');
+				$('#message').css({
+					opacity: 1
+				})
+				e.preventDefault();
+				return false;
+			}
+			if (regPhone.test($('#phone').val()) == false) {
+				$('#message').text('Please enter a correct phone number');
+				$('#message').css({
+					opacity: 1
+				})
+				e.preventDefault();
+				return false;
+			}
+			if (regText.test($('#name, #firstname').val()) == false) {
+				$('#message').text('Please enter a correct name and/or firstname');
+				$('#message').css({
+					opacity: 1
+				})
+				e.preventDefault();
+				return false;
+			}
+		})
+
+		
+	</script>
+
+</body>
+</html>

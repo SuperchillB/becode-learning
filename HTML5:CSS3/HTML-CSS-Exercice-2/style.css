@@ -1,0 +1,68 @@
+body{
+	background-color: #16232E;
+	color: white;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+}
+
+.h1-container{
+	display: block;
+	margin: 0 auto;
+}
+
+h1{
+	/*text-align: center;*/
+	margin: 0 auto 300px auto;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 200;
+	font-size: 60px;
+}
+h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+table{
+	width: 90%;
+	margin: 0 auto 50px auto;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+thead{
+	font-weight: 700;
+	background-color: none;
+	/*text-align: center;*/
+}
+
+tbody{
+	font-weight: 300;
+}
+
+td{
+	height: 40px;
+	/*padding-left: 10px;*/
+}
+
+.male{
+	color: green;
+}
+
+.female{
+	color: purple;
+}
+
+tbody tr:nth-of-type(even){
+	background-color: white;
+}
+tbody tr:nth-of-type(odd){
+	background-color: #eaeaea;
+}
+

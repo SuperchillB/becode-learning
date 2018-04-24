@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		.hoverMe {
+			/*visibility: visible;*/
+			opacity: 1;
+			display: block;
+			background-color: pink;
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+			float: left;
+			transition: opacity ease 1s;
+		}
+		.vanish {
+			/*visibility: hidden;*/
+			opacity: 0;
+		}
+		#reset {
+			display: block;
+			background-color: cyan;
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+			float: left;
+		}
+		#axe-x, #axe-y {
+			height: 100px;
+			width: 100px;
+			margin: 20px;
+			float: left;
+		}
+		#axe-x {
+			background-color: yellow;
+		}
+		#axe-y {
+			background-color: lightgrey;
+		}
+		.ex1, .ex2, .ex3 {
+			height: 200px;
+			width: 500px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="ex1">
+		<h3>Exercise 1</h3>
+		<div class="hoverMe"></div>
+		<div class="hoverMe"></div>
+		<div class="hoverMe"></div>
+	</div>
+	<div class="ex2">
+		<h3>Exercise 2</h3>
+		<div id="reset"></div>
+	</div>
+	<div class="ex3">
+		<h3>Exercise 3</h3>
+		<div id="axe-x"></div>
+		<div id="axe-y"></div>
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+</html>

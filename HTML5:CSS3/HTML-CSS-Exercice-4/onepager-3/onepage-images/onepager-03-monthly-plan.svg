@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="100px" viewBox="0 0 180 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-plan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="90" cy="52" r="30"></circle>
+        <circle id="path-2" cx="90" cy="52" r="26"></circle>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="52" height="52" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloud-plan">
+            <g id="Oval-Copy">
+                <use fill="#98DEE3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#3A6265" stroke-width="1" cx="90" cy="52" r="29.5"></circle>
+            </g>
+            <text id="30" font-family="AdelleSans-Regular, Adelle Sans" font-size="21" font-weight="normal" letter-spacing="1.60000002" fill="#3A6265">
+                <tspan x="77.6185" y="60">3</tspan>
+                <tspan x="90.5795" y="60">0</tspan>
+            </text>
+            <use id="Oval" stroke="#3A6265" mask="url(#mask-3)" stroke-width="2" stroke-dasharray="2" xlink:href="#path-2"></use>
+            <path d="M24,32 L24,45" id="Path-23" stroke="#5EA66F"></path>
+            <path d="M143,75 L143,88" id="Path-23-Copy-2" stroke="#4F749B"></path>
+            <path d="M31,39 L18,39" id="Path-23-Copy" stroke="#5EA66F"></path>
+            <path d="M150,82 L137,82" id="Path-23-Copy-3" stroke="#4F749B"></path>
+            <path d="M147.5,11 L147.5,18" id="Path-23-Copy-4" stroke="#5EA66F"></path>
+            <path d="M151,14 L144,14" id="Path-23-Copy-5" stroke="#5EA66F"></path>
+            <path d="M127.5,26 L127.5,33" id="Path-23-Copy-4" stroke="#7096BD"></path>
+            <path d="M131,29 L124,29" id="Path-23-Copy-5" stroke="#7096BD"></path>
+            <path d="M62.5,9 L62.5,16" id="Path-23-Copy-4" stroke="#4F749B"></path>
+            <path d="M66,12 L59,12" id="Path-23-Copy-5" stroke="#4F749B"></path>
+            <path d="M45.5,73 L45.5,80" id="Path-23-Copy-4" stroke="#4F749B"></path>
+            <path d="M49,76 L42,76" id="Path-23-Copy-5" stroke="#4F749B"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Mujigae</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        $('a[href^="#"]').on('click', function (e) {
+	          e.preventDefault();
+	          var target = this.hash;
+	          $('html, body').animate({
+	            'scrollTop': $(target).offset().top
+	          }, 600, 'swing');
+	        });
+      	});
+	</script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	<a class="navbar-brand" href="#mujigae" onclick="window.location.replace('index.html')">MUJIGAE | 무지개</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link" href="menu.html">Menu</a>
+			<a class="nav-item nav-link active" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="find-us.html">Find Us</a>
+			<a class="nav-item nav-link" href="contact.html">Contact</a>
+		</div>
+	</div>
+</nav>
+
+
+<section id="photos">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="card-columns" id="card-columns">
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://s3-media2.fl.yelpcdn.com/bphoto/fq9sMGphyHZEXrhHUskA4A/o.jpg" alt="Card image cap">
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://s3-media3.fl.yelpcdn.com/bphoto/aq5usozqyIjmo9b-39GJPQ/o.jpg" alt="Card image cap">
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://s3-media3.fl.yelpcdn.com/bphoto/uiWhF8lZzcsi0UhRUu-6fw/o.jpg" alt="Card image cap">
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://s3-media1.fl.yelpcdn.com/bphoto/G3WHxDUBzZ4YG6vv70Nxwg/o.jpg" alt="Card image cap">
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://s3-media3.fl.yelpcdn.com/bphoto/YnmrzL_brP_5DvlxTz2Hcg/o.jpg" alt="Card image cap">
+				</div>
+				<div class="card card-style">
+					<img class="card-img-top img-fluid" src="https://s3-media1.fl.yelpcdn.com/bphoto/wHtZ5D3u2xYsNTscUQhhdg/o.jpg" alt="Card image cap">
+				</div>
+			</div>
+		</div>
+		<nav aria-label="...">
+			<ul class="pagination justify-content-center">
+				<li class="page-item"><a class="page-link" href="gallery.html" tabindex="-1">Previous</a></li>
+				<li class="page-item"><a class="page-link" href="gallery.html">1</a></li>
+				<li class="page-item active"><a class="page-link" href="gallery2.html">2 <span class="sr-only">(current)</span></a></li>
+				<li class="page-item"><a class="page-link" href="gallery3.html">3</a></li>
+				<li class="page-item"><a class="page-link" href="gallery3.html">Next</a></li>
+			</ul>
+		</nav>		
+	</div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#container {
+			height: 300px;
+			width:600px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		}
+		form {
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: space-around;
+		}
+		#display {
+			height: 100px;
+			width: 400px;
+			border: 1px solid black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<form>
+			<div>
+				<label for="salary">Salary</label>
+				<input id="salary" type="text">
+			</div>
+			<div>
+				<label for="gender">Gender</label>
+				<select name="gender" id="gender">
+					<option value disabled selected>Select gender</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+			</div>
+			<div>
+				<label for="children">Number of children</label>
+				<input id="children" type="text">
+			</div>
+			<input type="submit">
+		</form>
+		<div id="display">Your salary (after deductions and discounts): <span></span></div>
+	</div>
+
+	
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+
+		let inputs = $('input[type=text], select'); // ?
+
+		$('input[type=submit]').on('click', function(e){
+			$('#display span').text('');
+			for(let i = 0, length1 = inputs.length; i < length1; i++){
+				if (inputs[i].value == "") {
+					alert('Please fill in the empty field(s)')
+					e.preventDefault();
+					return false;
+				}
+			}
+			e.preventDefault();
+			let salary = $('#salary').val();
+			let gender = $('#gender').val();
+			let children = $('#children').val();
+			let newSalary = salary - (salary * 0.18) - (salary * 0.07) - (salary * 0.05);
+			if (gender == "male") {
+				newSalary = salary - (salary * 0.18) - (salary * 0.07) - (salary * 0.05);
+				if (children == 3) {
+					newSalary += (salary * 0.01);
+				} else if (children == 4) {
+					newSalary += (salary * 0.02);
+				}
+				$('#display span').text(newSalary);
+				console.log('Your salary after deductions: ' + newSalary);
+			} else if (gender == "female") {
+				newSalary += (salary * 0.02);
+				if (children == 3) {
+					newSalary += (salary * 0.01);
+				} else if (children == 4) {
+					newSalary += (salary * 0.02);
+				}
+				$('#display span').text(newSalary);
+				console.log('Your salary after deductions: ' + newSalary);
+			}
+		})
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.two-dots{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .fa-dot-circle-o{
+    color: $white;
+    font-size: 20px;
+  }
+  .fa-circle{
+    color: $dots-light;
+    font-size: 20px;
+  }
+}
+
+.three-dots{
+  .fa-circle{
+    color: $dots-light;
+    font-size: $micro;
+    padding: 2px;
+  }
+  .fa-circle:first-child{
+    color: $dots-dark;
+  }
+}
+
+.six-dots{
+  .fa-circle{
+    color: $dots-light;
+    font-size: $micro;
+    padding: 2px;
+  }
+  .fa-circle:first-child{
+    color: $dots-dark;
+  }
+}

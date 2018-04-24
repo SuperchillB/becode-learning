@@ -1,0 +1,245 @@
+<!-- 
+REMAINING:
+- Media Queries
+- Javascript for navbar (on scroll (scrollTop 0) make navbar thinner and elements smaller)
+- Animations on svg's 
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Active Collab</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Lora" rel="stylesheet">
+</head>
+<body>
+
+<!-- ********************** NAVBAR ********************** -->
+
+<nav>
+	<div id="nav-left">
+		<img src="onepage-images/onepager-03-logo.svg">
+		<ul id="nav-list-left">
+			<a href="#"><li>Features</li></a>
+			<a href="#"><li>Pricing</li></a>
+			<a id="dropdown" href="#"><li>More +</li></a>
+		</ul>
+	</div>
+	<div id="nav-right">
+		<ul id="nav-list-right">
+			<a href="#"><li>Help & Support</li></a>
+			<a href="#"><li>Blog</li></a>
+			<a href="#"><li>Resources</li></a>
+		</ul>
+		<div id="nav-buttons">
+			<a href="#1" id="nav-button-1">Try It Free</a>
+			<a href="#2" id="nav-button-2">Sign In</a>
+		</div>
+	</div>
+</nav>
+
+<!-- ********************** HEADER ********************** -->
+
+<header>
+	<h1>Powerful, yet simple project management tool</h1>
+</header>
+
+<!-- ********************** SECTION 1 ********************** -->
+
+<section id="section-1">
+	<a class="section-1-functions" href="#">
+		<img src="task-mgmt-icon.svg">
+		<h4>Task Management</h4>
+		<p>Stay organised with an advanced to-do list and track your project.</p>
+	</a>
+	<a class="section-1-functions" href="#">
+		<img src="team-collab-icon.svg">
+		<h4>Team Collaboration</h4>
+		<p>Efficiently work together with your team to deliver top-notch results.</p>
+	</a>
+	<a class="section-1-functions" href="#">
+		<img src="time-tracking-icon.svg">
+		<h4>Time Tracking</h4>
+		<p>Track every minute of your work and bill clients accordingly.</p>
+	</a>
+	<a class="section-1-functions" href="#">
+		<img src="invoicing-icon.svg">
+		<h4>Invoicing</h4>
+		<p>Easily issue invoices for your work, save time, and get paid.</p>
+	</a>
+</section>
+
+<!-- ********************** SECTION 2 ********************** -->
+
+<section id="section-2">
+	<div class="section-2-text">
+		<h3>Active Collab helps your team stay organized when you outgrow email. But it’s so much more than that — with plenty of neat add-ons, it’s a one-stop solution for all your business needs.</h3>
+		<a href="">Try it free for 30 days!</a>
+		<p>No credit card required, unsubscribe at any time.</p>
+	</div>
+</section>
+
+<!-- ********************** SECTION 3 ********************** -->
+
+<section id="section-3">
+	<div>
+		<img src="onepage-images/onepager-03-printscreen.png">
+	</div>
+</section>
+
+<!-- ********************** SECTION 4 ********************** -->
+
+<section id="section-4">
+	<div class="section-4-header">
+		<h2>On cloud or your server</h2>
+		<h3>ActiveCollab runs in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30 days and then decide what works best for you.</h3>
+	</div>
+	<div class="section-4-options">
+		<div class="section-4-options-left">
+			<img src="onepage-images/onepager-03-monthly-plan.svg">
+			<div>
+				<h4>Monthly Plans</h4>
+				<p>In the cloud <br>
+				   No setup required <br>
+				   Ready in 2 minutes</p>
+				<a href="">Plans & Pricing</a>
+				<p><em>from $25/month</em></p>
+			</div>
+		</div>
+		<div class="section-4-options-right">
+			<img src="onepage-images/onepager-03-self-hosted.svg">
+			<div>
+				<h4>Self-Hosted</h4>
+				<p>Install on your own server <br>
+				   Unlimited team members and storage <br>
+				   One free year of support and upgrades</p>
+				<a href="">Self-Hosted Pricing</a>
+				<p><em>one time free - from $999</em></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- ********************** SECTION 5 ********************** -->
+
+<section id="section-5">
+	<div class="section-5-header">
+		<h2>Who’s using ActiveCollab?</h2>
+		<h3>For more than 10 years, we've been trusted by over 200,000 people in companies ranging from small businesses to Fortune 500 members, universities and government institutions.</h3>
+	</div>
+	<div class="section-5-logos">
+		<img src="onepage-images/apple.svg">
+		<img src="onepage-images/publicis.svg">
+		<img src="onepage-images/slack.svg">
+		<img src="onepage-images/adobe.svg">
+		<img src="onepage-images/agilvy.svg">
+		<img src="onepage-images/nasa.svg">
+		<img src="onepage-images/harvard.svg">
+		<img src="onepage-images/nike.svg">
+	</div>
+</section>
+
+<!-- ********************** SECTION 6 ********************** -->
+
+<section id="section-6">
+	<div class="section-5-header">
+		<h1>Get started with Active Collab</h1>
+		<p>Enter your email to get a month of ActiveCollab absolutely free, without any limitations.</p>
+	</div>
+	<form>
+		<label for="name">Your Name or Organisation</label>
+		<input id="name" type="text" name="Name" placeholder="Enter name or organisation">
+		<label for="email">Email</label>
+		<input id="email" type="email" name="Email" placeholder="name@organisation.com">
+		<label for="password">Password</label>
+		<input id="password" type="password" name="Password" placeholder="The longer, the stronger">
+		<button>Start my free month!</button>
+		<p>Hope you'll enjoy it!</p>
+	</form>
+	<div class="section-5-footer">
+		<p>Your data is safe with us.</p>
+		<a href="#">Active Collab security</a>
+	</div>
+</section>
+
+<!-- ********************** FOOTER ********************** -->
+
+<footer>
+	<div class="footer-links">
+		<div>
+			<p>Products</p>
+			<a href="">Features</a>
+			<a href="">All Features</a>
+			<a href="">Pricing</a>
+			<a href="">Add-Ons</a>
+			<a href="">Roadmap</a>
+			<a href="">Timer</a>
+			<a href="">Mobile Apps</a>
+		</div>
+		<div>
+			<p>Alternative</p>
+			<a href="">Best Project Management Tools Comparison</a>
+			<a href="">Basecamp Alternative</a>
+			<a href="">Trello Alternative</a>
+			<a href="">Asana Alternative</a>
+			<a href="">Teamwork Alternative</a>
+			<a href="">Wrike Alternative</a>
+			<a href="">JIRA Alternative</a>
+			<a href="">MS Project Alternative</a>
+		</div>
+		<div>
+			<p>Solution</p>
+			<a href="">Self-Hosted Project Management</a>
+			<a href="">Task Management</a>
+			<a href="">Project Management</a>
+			<a href="">Team Collaboration</a>
+			<a href="">Team Management</a>
+			<a href="">Client Management</a>
+			<a href="">Time Tracking</a>
+			<a href="">Invoicing</a>
+		</div>
+		<div>
+			<p>For Teams</p>
+			<a href="">Marketing</a>
+			<a href="">Designers</a>
+			<a href="">Web Design</a>
+			<a href="">Web Development</a>
+			<a href="">Startups</a>
+			<a href="">SEO Agencies</a>
+			<a href="">Small Business</a>
+		</div>
+		<div>
+			<p>Company</p>
+			<a href="">About & Contact</a>
+			<a href="">Careers</a>
+			<a href="">Privacy Policy</a>
+			<a href="">Terms of Service</a>
+			<a href="">Security</a>
+		</div>
+		<div>
+			<p>Resources</p>
+			<a href="">Project Management Guides</a>
+			<a href="">Blog</a>
+			<a href="">Newsletter</a>
+			<a href="">Help & Support</a>
+		</div>
+	</div>
+	<div class="footer-social-media">
+		<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+		<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+		<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+		<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href=""><i class="fa fa-medium" aria-hidden="true"></i></a>
+	</div>
+	<div class="footer-footer">
+		<p>Happy collaborating!</p>
+		<p>&copy;2007-2017 Active Collab</p>
+	</div>
+</footer>
+
+</body>
+</html>

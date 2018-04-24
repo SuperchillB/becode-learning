@@ -1,0 +1,27 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700,800|Open+Sans:300,400|Oranienbaum|Poppins:400,500,600|Trocchi"); // MIGHT NOT NEED 400 FOR POPPINS ?
+
+// FONT-FAMILY
+$title: 'Poppins', sans-serif; // for h1s, h2s, h3s
+$subtitle: 'Muli', sans-serif; // for sub titles (h4) + pre-footer & footer
+$paragraph: 'Open Sans', sans-serif; // for paragraphs (main content text)
+$author: 'Trocchi', serif; // for paragraph below "John Smith" in author
+$minimal: 'Oranienbaum', serif; // for short sentence in section 2 of minimal "Impress your clients...."
+
+// FONT-SIZE
+$micro: 12px; // navbar and anything smaller than tiny
+$tiny: 14px; // labels above stats, paragraphs in cards, ... check
+$small: 16px; // regular text (paragraphs)
+$normal: 20px; // some h4s (ex: section-title) may be slightly smaller
+$big: 35px; // h3
+$big-grig: 50px; // h2 in grig jumbotron
+$huge: 55px; // h2
+$giant: 70px; // h1
+
+// FONT-WEIGHT
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;

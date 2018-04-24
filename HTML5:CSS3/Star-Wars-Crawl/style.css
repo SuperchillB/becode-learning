@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	background-image: url("https://i.ytimg.com/vi/KsHUrwV0Kek/maxresdefault.jpg");
+	/*background-image: cover;*/
+	/*background-position: center;*/
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 600;
+	color: rgb(229, 177, 58);
+	text-shadow: 1px 1px 1px white
+}
+
+#intro {
+	opacity: 0;
+	animation: intro 5s linear;
+	animation-delay: 4s;
+	/*display: block;*/
+	/*margin: 250px auto -300px auto;*/
+	margin: 250px auto -600px auto;
+	text-align: justify;
+	color: rgb(75, 213, 238);
+	font-size: 30px;
+	text-shadow: 0px 2px 1px #447161;
+	width: 450px; 
+}
+
+#union-jack img {
+	width: 100%;\
+}
+
+#union-jack img {
+	opacity: 0;
+	width: 600px;
+	display: block;
+	/*margin: 500px auto -500px auto;*/
+	margin: 500px auto -500px auto;
+	animation: logo 10s linear;
+	animation-delay: 11s;
+}
+
+.container{
+	height: 500px; /* works great with 500px & 50% 100% */
+	text-align: center;
+	-webkit-transform: perspective(200) rotateX(30deg);
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	transform-origin: 50% 100%;
+	font-size: 40px;
+}
+
+.container p{
+   	opacity: 0;
+    margin: 20px 100px;
+    text-align: justify;
+    position: relative;
+    top: 150px;
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*background-color: yellow;*/
+    animation: scroll 180s linear;
+    animation-delay: 18s;
+}
+
+@keyframes scroll {
+	0% {
+		top: 400px; /* originally 400px */
+		transform: translateY(200px);
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		top: -3100px;
+		transform: translateY(-300px);
+		opacity: 0;
+	}
+}
+
+@keyframes intro {
+	0% {
+		opacity: 0;
+	}
+	15% {
+		opacity: 0.5;
+	}
+	30% {
+		opacity: 1;
+	}
+	45% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes logo {
+	0% {
+		opacity: 1;
+		width: 600px;
+	}
+	25% {
+		opacity: 1;
+		width: 450px;
+	}
+	50% {
+		opacity: 1;
+		width: 300px;
+	}
+	75% {
+		opacity: 1;
+		width: 150px;
+	}
+	100% {
+		opacity: 0;
+		width: 5px;		
+	}
+}

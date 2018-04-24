@@ -1,0 +1,122 @@
+// PRE-FOOTER
+
+.pre-footer{
+	background-color: $dark-1;
+	color: $grey;
+	font-family: $subtitle;
+	font-size: $small;
+	padding: 70px 40px 90px 40px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+	.pre-footer-description{
+		width: 110px / 600px * 100%;
+		margin: 0 10px;
+		img{
+			width: 30px; // double check
+			margin-bottom: 20px;
+		}
+		p{
+			margin-top: 0;
+			line-height: 22px;
+		}
+	}
+
+	.pre-footer-posts{
+		width: 110px / 600px * 100%;
+		margin: 0 10px;
+		font-size: $tiny;
+		>p{
+			margin-top: 0;
+			margin-bottom: 40px;
+			color: $white;
+		}
+		a{
+			text-decoration: none;
+		}
+		a p{
+			margin-bottom: 0;
+		}
+		hr{
+			color: $grey;
+		}
+		div p:nth-of-type(1){
+			color: $white;
+		}
+		div p:nth-of-type(2){
+			color: $grey;
+			margin-top: 8px;
+			font-size: $micro;
+		}
+	}
+
+	.pre-footer-links{
+		width: 110px / 600px * 100%;
+		margin: 0 10px;
+		p:nth-child(1){
+			margin-top: 0;
+			margin-bottom: 40px;
+			color: $white;
+			font-size: $tiny;
+		}
+		a{
+			display: block;
+			text-decoration: none;
+			margin-bottom: 16px;
+			color: $grey;
+		}
+	}
+
+	.pre-footer-contact{
+		width: 110px / 600px * 100%;
+		margin: 0 10px;
+		p:nth-child(1){
+			margin-top: 0;
+			margin-bottom: 40px;
+			color: $white;
+			font-size: $tiny;
+		}
+		p:nth-child(2){
+			color: $white;
+			margin-bottom: 18px;
+		}
+		p:nth-child(4){
+			color: $white;
+			margin-bottom: 18px;
+			margin-top: 25px;
+		}
+		p:nth-child(5){
+			margin-bottom: 18px;
+		}
+	}
+}
+
+
+// FOOTER
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: $dark-2;
+	color: $grey;
+	font-family: $subtitle;
+	padding: 10px 70px;
+	a{
+		color: $grey;
+	}
+	a[href="http://themeple.co/"], a[href="https://wordpress.com/"]{
+		color: $white;
+		text-decoration: none;
+	}
+	p{
+		font-size: $tiny;
+	}
+	ul{
+		padding-left: 0;
+		li{
+			display: inline-block;
+			margin-right: 30px;
+		}
+	}
+}

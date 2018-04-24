@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Mujigae</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        $('a[href^="#"]').on('click', function (e) {
+	          e.preventDefault();
+	          var target = this.hash;
+	          $('html, body').animate({
+	            'scrollTop': $(target).offset().top
+	          }, 600, 'swing');
+	        });
+      	});
+	</script>
+	<!-- <script>
+      	function myMap() {
+		    var mapCanvas = document.getElementById("map");
+		    var mapOptions = {
+		        center: new google.maps.LatLng(50.823754, 4.359071),
+		        zoom: 20
+		    };
+	    	var map = new google.maps.Map(mapCanvas, mapOptions);
+		}
+
+	</script> -->
+	<!-- <script>
+
+      function initMap() {
+        var myLatLng = {lat: -25.363, lng: 131.044};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+    </script> -->
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	<a class="navbar-brand" href="#mujigae" onclick="window.location.replace('index.html')">MUJIGAE | 무지개</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link" href="menu.html">Menu</a>
+			<a class="nav-item nav-link" href="gallery.html">Gallery</a>
+			<a class="nav-item nav-link active" href="find-us.html">Find Us <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="contact.html">Contact</a>
+		</div>
+	</div>
+</nav>
+
+<header class="container find-us-container-style">
+	<h1 class="text-center">Find us here:</h1>
+</header>
+
+<section class="container">
+	<div class="row">
+		<div class="col-6">
+			<h4 class="text-center">Rue du Page</h4>
+			<div id="map" style="width:auto;height:200px;"></div>
+			<div>
+				<p>Rue du Page 55, 1050 Ixelles</p>
+				<p>Open Mon-Sat from 11AM to 11PM, Sun from 18PM to 11PM</p>
+			</div>
+		</div>
+		<div class="col-6">
+			<h4 class="text-center">Place Jourdan</h4>
+			<div>
+				<iframe src="https://snazzymaps.com/embed/19885" width="100%" height="200px" style="border:none;"></iframe>
+			</div>
+			<div>
+				<p>Chaussée de Wavre 372, 1040 Etterbeek</p>
+				<p>Open Mon-Sat from 11AM to 11PM, Sun from 18PM to 11PM</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-6">
+			<h4 class="text-center">Bourse</h4>
+			<div>
+				<iframe src="https://snazzymaps.com/embed/19885" width="100%" height="200px" style="border:none;"></iframe>
+			</div>
+			<div>
+				<p>Rue des Pierres 29, 1000 Bruxelles</p>
+				<p>Open Mon-Sat from 11AM to 11PM, Sun from 18PM to 11PM</p>
+			</div>
+		</div>
+		<div class="col-6">
+			<h4 class="text-center">Stockel</h4>
+			<div>
+				<iframe src="https://snazzymaps.com/embed/19885" width="100%" height="200px" style="border:none;"></iframe>
+			</div>
+			<div>
+				<p>Place Dumont 14, 1150 Woluwe-Saint-Pierre</p>
+				<p>Open Mon-Sat from 11AM to 11PM, Sun from 18PM to 11PM</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<script>
+	function initMap() {
+		var myLatLng = {lat: 50.823754, lng: 4.359071};
+
+		var map = new google.maps.Map(document.getElementById('map'), {
+		  	zoom: 15,
+		  	center: myLatLng,
+		  	disableDefaultUI: true
+		});
+
+		var marker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			title: 'Location #1'
+		});
+	}
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ8UcjXx1ZaDuDIRlQsiDLC6PIgnks-iQ&callback=initMap">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

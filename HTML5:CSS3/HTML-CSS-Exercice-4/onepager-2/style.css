@@ -1,0 +1,373 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'Ruda', sans-serif;
+}
+
+/* ================ NAVBAR ================ */
+
+.nav{
+	position: sticky;
+	top: 0;
+	z-index: 20;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background-color: #373E46;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 70px;
+	align-items: center;
+}
+nav img{
+	height: 30px;
+	width: 40px;
+	margin-left: 75px;
+}
+nav ul{
+	align-self: center;
+}
+nav ul li{
+	display: inline-block;
+	color: #EDF9FF;
+	align-self: center;
+	font-size: 14px;
+	margin-right: 10px;
+	margin-left: 25px;
+	/*font-family: 'Open Sans', sans-serif;*/
+	transition: all ease 0.6s;
+	border-bottom: 1px solid rgba(237, 249, 255, 0);
+}
+nav ul li:hover{
+	border-bottom: 1px solid rgba(237, 249, 255, 1);
+}
+nav ul a{
+	text-decoration: none;
+	color: #EDF9FF;
+}
+
+
+/* ================ JUMBOTRON ================ */
+
+#jumbotron{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(onepage-images/alberto-castillo-q-346020.jpg);
+	background-size: cover;
+	background-position: 60% 50%;
+	height: 533px;
+	box-shadow: inset 0 0 0 2000px rgba(55, 62, 70, 0.8);
+	color: #EDF9FF;
+	position: relative;
+}
+.jumbotron-text{
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.jumbotron-text h3{
+	font-size: 25px;
+	font-weight: 300;
+	margin-top: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.jumbotron-text button{
+	height: 55px;
+	width: 250px;
+	background-color: transparent;
+	color: #1CA3DB;
+	outline: none;
+	border: 1.5px solid #1CA3DB;
+	border-radius: 7px;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	transition: all ease 0.6s;
+}
+.jumbotron-text button:hover{
+	background-color: #1CA3DB;
+	color: #EDF9FF;
+}
+
+
+/* ================ MOTTO ================ */
+
+#motto{
+	height: 300px;
+	background-color: #31A1D0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #25789B;
+}
+#motto div{
+	width: 530px;
+}
+#motto h4{
+	margin-top: 0;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+#motto h2{
+	font-size: 33px;
+	font-weight: lighter;
+}
+
+
+/* ================ SECTION 3 ================ */
+
+#section-3{
+	height: 395px;
+	background-color: #F7F7F7;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 0 50px;
+}
+.number{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	background-color: #A7B3B8;
+	display: inline-block;
+	width: 70px;
+	border-radius: 50px;
+	padding: 7px;
+	color: #F7F7F7;
+}
+#section-3 h3{
+	font-size: 25px;
+	font-weight: lighter;
+	color: #A7B3B8;
+	margin-bottom: 0;
+}
+#section-3 h4{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #A7B3B8;
+	margin-top: 0;
+}
+#section-3 button{
+	font-family: 'Ruda', sans-serif;
+	font-weight: 700;
+	border-radius: 10px;
+	height: 35px;
+	width: 140px;
+	outline: none;
+	border: 1px solid #31A1D0;
+	border-radius: 50px;
+	background-color: transparent;
+	font-size: 16px;
+	color: #31A1D0;
+	cursor: pointer;
+	transition: all ease 0.6s;
+}
+#section-3 button:hover{
+	background-color: #1CA3DB;
+	color: #EDF9FF;
+}
+
+
+/* ================ SECTION 4 ================ */
+
+#section-4{
+	height: 700px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 50px;
+}
+#section-4 h3{
+	margin-top: 0;
+	font-size: 25px;
+	font-weight: lighter;
+	margin-bottom: 5px;
+	color: #555555;
+}
+#section-4 h5{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 5px;
+	color: #46505A;
+}
+#section-4 p{
+	color: #9A9A9A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+#section-4 a{
+	text-decoration: underline;
+	color: #EDF9FF;
+
+}
+.section-4-text{
+	width: 420px;
+}
+#section-4 img{
+	width: 500px;
+	margin-bottom: 45px;
+}
+
+
+/* ================ SECTION 5 ================ */
+
+#section-5{
+	height: 395px;
+	background-color: #373E46;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 60px;
+}
+#section-5 h2{
+	margin-top: 0;
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: white;
+}
+#section-5 span{
+	color: #31A1D0;
+}
+.section-5-text{
+	width: 510px;
+}
+form{
+	display: block;
+	width: 320px;
+	float: left;
+	background-color: #444D57;
+	padding: 5px 9px 9px 9px;
+	border-radius: 7px;
+}
+input{
+	font-family: 'Ruda', sans-serif;
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: 45px;
+	margin-top: 4px;
+	font-size: 16px;
+}
+form button{
+	font-family: 'Ruda', sans-serif;
+	width: 100%;
+	margin-top: 10px;
+	height: 45px;
+	font-size: 20px;
+	background-color: #31A1D0;
+	border: none;
+	color: #EDF9FF;
+	outline: none;
+	cursor: pointer;
+	transition: all ease 0.6s;
+}
+form button:hover{
+	background-color: #444D57;
+	color: #31A1D0;
+	border: 1px solid #31A1D0;
+}
+
+
+/* ================ SECTION 6 ================ */
+
+#section-6{
+	background-image: url(onepage-images/dominik-lange-86964.jpg);
+	background-size: cover;
+	background-position: 80% 60%;
+	box-shadow: inset 0 0 0 2000px rgba(50, 161, 207, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 510px;
+	color: #EDF9FF;
+}
+.section-6-text{
+	width: 680px;
+}
+.section-6-text p{
+	width: 560px;
+	margin-top: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+#section-6 h3{
+	font-weight: lighter;
+	font-size: 25px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+
+/* ================ SECTION 7 ================ */
+
+#section-7{
+	height: 700px;
+	background-color: #F2F7FC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#section-7 h3{
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 25px;
+	color: #555555;
+}
+.section-7-text{
+	width: 550px;
+}
+.section-7-text p{
+	width: 500px;
+	margin-top: 5px;
+	color: #9A9A9A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.section-7-text button{
+	width: 180px;
+	height: 45px;
+	background-color: #31A1D0;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #EDF9FF;
+	margin-left: 7px;
+	font-family: 'Ruda', sans-serif;
+	font-weight: 700;
+	transition: all ease 0.6s;
+}
+.section-7-text button:hover{
+	background-color: #F2F7FC;
+	color: #31A1D0;
+	border: 1px solid #31A1D0;
+}
+
+
+/* ================ FOOTER ================ */
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #373E46;
+	height: 227px;
+	text-align: center;
+	color: #BFBFC2;
+	font-size: 15px;
+}
+

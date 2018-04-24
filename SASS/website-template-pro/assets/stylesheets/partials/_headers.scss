@@ -1,0 +1,40 @@
+// SECTION TITLE
+
+.section-title{
+	p{
+		font-size: $normal;
+		font-family: $subtitle;
+		color: $grey;
+		margin-bottom: 0;
+	}
+	h3{
+		font-size: $big;
+		font-family: $title;
+		margin-top: 0;
+		margin-bottom: 22px;
+	}
+	hr{
+		height: 3px;
+		color: $blue-1;
+		background-color: $blue-1;
+		border: none;
+		margin-bottom: 35px;
+	}
+}
+
+
+.section-title-center{
+	text-align: center;
+	hr{
+		width: 90px;
+	}
+}
+
+.section-title-left{
+	text-align: left;
+	hr{
+		width: 45px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+}

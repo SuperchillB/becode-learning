@@ -1,0 +1,193 @@
+//JUMBOTRON1 on HOME Page
+.jumbotron1 {
+            display:flex;
+            justify-content: space-around;
+            background-image: url("../images/3214321413.jpg");
+            background-size: cover;
+            background-position: bottom center;
+            padding-top: 300px;
+            padding-bottom: 250px;
+            div{
+              display:flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+             }
+            i{
+            align-self: center;
+            }
+            h1{
+              font-family: $title;
+              font-size: $giant;
+              color: $white;
+              margin-bottom: 0;
+              margin-top: 0;
+            }
+            h5{
+              color: $white;
+              font-family: $title;
+              margin-top: 0;
+            }
+}
+//JUMBO on ABOUT-US
+.jumbotron2{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 120px 0;
+  background-color: blue;
+  opacity: 0.5;
+  .d-agency-arrows{
+    align-self: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .fa-angle-right{
+        color: $white;
+        padding:0;
+        font-weight: $bold;
+      }
+      .fa-angle-left{
+        color: $white;
+        padding:0;
+        font-weight: $bold;
+      }
+  }
+   div:nth-of-type(2){
+     width: 70%;
+   }
+    img{
+      height: 70px;
+      width: auto;
+      border-radius: 50%;
+      &:hover{
+        background-color: $blue-4;
+        cursor: pointer;
+      }
+    }
+    h4{
+      color:$blue-4;
+      font-size: $normal;
+    }
+    h1{
+      color: $white;
+      font-size:$huge;
+    }
+}
+//JUMBO on SECTION-STYLE
+.jumbotron3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-image: url("../images/34253245-1.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+  padding: 300px 300px 200px 0;
+  background-size: cover;
+    h2{
+      color: $white;
+      font-size:$huge;
+      font-family: $title;
+      margin: 0;
+    }
+    h4{
+      color: $grey;
+      font-family:$title ;
+      font-size: $normal;
+      margin: 0;
+    }
+}
+// found on PHOTOGRAPHY
+.jumbotron4{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+  padding: 150px 0;
+    h4{
+      color: $grey;
+      font-family:$title ;
+      font-size: $normal;
+    }
+    h2{
+      color: $white;
+      font-size:$huge;
+      font-family: $title;
+      line-height: 55px;
+    }
+}
+// found on AUTHOR
+.jumbotron5{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: $blue-5;
+ text-align: center;
+   img{
+     height: 400px;
+     width: auto;
+   }
+   h2{
+     color:$white;
+     font-family: $author;
+     font-size: $giant;
+     margin-top: 0;
+   }
+   hr{
+    color: $dots-light;
+    width: 200px;
+   }
+   h4{
+     color: $dots-light;
+     font-family: $author;
+   }
+}
+
+//found on BLOG-GRIG
+.jumbotron6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+  background-image: url("../images/2435434-1.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 300px;
+  padding-bottom: 250px;
+    h2{
+      font-size: $big-grig;
+      text-align: center;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    h4{
+      font-size: $normal;
+      font-family: $subtitle;
+      margin: 5px 0;
+    }
+    hr{
+      color: $white;
+      width: 150px;
+    }
+    a{
+      margin-top: 10px;
+    }
+}
+//found on SHOP
+.jumbotron7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/shop-fullwidth.png");
+  padding: 250px;
+}

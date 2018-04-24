@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+		}
+		
+		#container {
+			height: 300px;
+			width: 500px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		#rectangle {
+			height: 100px;
+			width: 250px;
+			background-color: #232323;
+			color: white;
+			font-size: 30px;
+			font-family: Courier;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			transition: all ease .5s;
+		}
+
+		button {
+			height: 40px;
+			border: 2px solid #232323;
+			outline: none;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		input {
+			height: 32px;
+			width: 100px;
+			outline: none;
+			border: 3px solid #232323;
+			font-size: 16px;
+		}
+
+		#buttons {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			width: 200px;
+			height: 300px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<div id="rectangle"></div>
+		<div id="buttons">
+			<button id="height">Change height</button>
+			<button id="green">Change to green</button>
+			<button id="colourReset">Reset colour</button>
+			<button id="hide">Hide rectangle</button>
+			<button id="show">Show rectangle</button>
+		</div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+
+		// Button 1: click to add 50px to height as long as height <= 300px
+		let clickCount = 0;
+		$('#height').on('click', function(){
+			clickCount++;
+			let newHeight = 100 + (clickCount * 50);
+			if (clickCount <= 4) {
+				$('#rectangle').css({
+					height: newHeight
+				})
+			} else {
+				$('#rectangle').css({
+					height: 100
+				})
+				clickCount = 0;
+			}
+		})
+
+		// Button 2: change colour to green
+		$('#green').on('click', function(){
+			$('#rectangle').css({
+				backgroundColor: "green"
+			})
+		})
+
+		// Button 3: reset colour
+		$('#colourReset').on('click', function(){
+			$('#rectangle').css({
+				backgroundColor: "#232323"
+			})
+		})
+
+		// Button 4: hide rectangle
+		$('#hide').on('click', function(){
+			$('#rectangle').animate({ opacity: 0 })
+		})
+		// Button 5: show rectangle
+		$('#show').on('click', function(){
+			$('#rectangle').animate({ opacity: 1 })
+		})
+		
+	</script>
+
+</body>
+</html>

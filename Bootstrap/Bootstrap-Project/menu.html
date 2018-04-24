@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Mujigae</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        $('a[href^="#"]').on('click', function (e) {
+	          e.preventDefault();
+	          var target = this.hash;
+	          $('html, body').animate({
+	            'scrollTop': $(target).offset().top
+	          }, 600, 'swing');
+	        });
+      	});
+	</script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	<a class="navbar-brand" href="#mujigae" onclick="window.location.replace('index.html')">MUJIGAE | 무지개</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link active" href="menu.html">Menu <span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link" href="gallery.html">Gallery</a>
+			<a class="nav-item nav-link" href="find-us.html">Find Us</a>
+			<a class="nav-item nav-link" href="contact.html">Contact</a>
+		</div>
+	</div>
+</nav>
+
+<header class="container text-center">
+		<h1>LUNCH & DINNER MENU</h1>
+		<p>Our kitchens are open everyday from 11AM to 11PM.</p>
+</header>
+
+<main class="container menu">
+	<div class="row">
+		<div class="col-4">
+			<div class="list-group" id="list-tab" role="tablist">
+				<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-anju" role="tab" aria-controls="home">Anju <br> 안주</a>
+				<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-k-classics" role="tab" aria-controls="profile">Korean <br> Classics</a>
+				<a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-k-bbq" role="tab" aria-controls="messages">Korean <br> BBQ</a>
+				<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-sides" role="tab" aria-controls="settings">Sides <br> 반찬</a>
+				<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-desserts" role="tab" aria-controls="settings">Desserts <br> 디저트</a>
+				<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-drinks" role="tab" aria-controls="settings">Drinks</a>
+			</div>
+		</div>
+		<div class="col-8">
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="list-anju" role="tabpanel" aria-labelledby="list-home-list">
+					<p>Anju are small selected dishes. you can order them as a snack, starter or main dish</p>
+					<div class="row justify-content-between">
+						<h6>Mul Mandu | 물만두</h6>
+						<span class="badge badge-light badge-style">Light</span>
+					</div>
+					<p>5 homemade steamed dumplings with a delicious beef-filling & homemade soy sauce</p>
+					<div class="row justify-content-between">
+						<h6>Mul Mandu | 야채물만두 <span class="badge badge-pill badge-success">Vegan</span></h6>
+						<span class="badge badge-light badge-style">Light</span>
+					</div>
+					<p>5 homemade steamed dumplings filled with delicate vegetables, tofu & glass noodles, with homemade soy sauce</p>
+					<div class="row justify-content-between">
+						<h6>Kimchi Pajeon | 김치파전 <span class="badge badge-pill badge-success">Vegan</span></h6>
+						<span class="badge badge-light badge-style">Light</span>
+					</div>
+					<p>Korean thin pancake with kimchi & spring onions</p>
+					<div class="row justify-content-between">
+						<h6>Haemul Pajeon | 해물파전</h6>
+						<span class="badge badge-light badge-style">Light</span>
+					</div>
+					<p>Korean thin pancake with seafood & spring onions</p>
+					<div class="row justify-content-between">
+						<h6>Dubu Kimchi | 두부김치 <span class="badge badge-pill badge-success">Vegan</span></h6>
+						<span class="badge badge-light badge-style">Light</span>
+					</div>
+					<p>Tofu sautéed kimchi with fresh tofu</p>
+					<div class="row justify-content-between">
+						<h6>MISO SOUP | 미소국 소</h6>
+						<span class="badge badge-light badge-style">Light</span>
+					</div>
+					<p>With seaweed, spring onions & tofu</p>
+				</div>
+				<div class="tab-pane fade" id="list-k-classics" role="tabpanel" aria-labelledby="list-profile-list">
+					<p>All Korean Classics are served with 3 side dishes & rice</p>
+					<div class="row justify-content-between">
+						<h6>Dolsot Bibimbap | 돌솥비빔밥</h6>
+						<span class="badge badge-light badge-style">€12.90</span>
+					</div>
+					<p>Hot stone bowl with beef, vegetables, a fried egg & spicy gochujang-chili-paste on top of rice, with a miso soup on the side</p>
+					<div class="row justify-content-between">
+						<h6>Sundubu Jjigae | 순두부찌개</h6>
+						<span class="badge badge-light badge-style">€12.90</span>
+					</div>
+					<p>Spicy stew with soft tofu & seafood</p>
+					<div class="row justify-content-between">
+						<h6>Kimchi Bokkeumbap | 김치볶음밥</h6>
+						<span class="badge badge-light badge-style">€11.90</span>
+					</div>
+					<p>Fried rice with kimchi, finely sliced vegetables & a fried egg, refined with sesame oil & spring onions</p>
+					<div class="row justify-content-between">
+						<h6>Kimchi Jjigae | 김치찌개</h6>
+						<span class="badge badge-light badge-style">€12.50</span>
+					</div>
+					<p>Spicy stew with kimchi, pork belly & tofu</p>
+					<div class="row justify-content-between">
+						<h6>So Bulgogi | 소불고기</h6>
+						<span class="badge badge-light badge-style">€17.90</span>
+					</div>
+					<p>Specially marinated finely sliced fried beef</p>
+					<div class="row justify-content-between">
+						<h6>Japchae | 잡채</h6>
+						<span class="badge badge-light badge-style">€12.90</span>
+					</div>
+					<p>Glass noodles with thin slices of beef, sautéed vegetables & fried egg stripes</p>
+					<div class="row justify-content-between">
+						<h6>Gal Guksu | 칼국수 <span class="badge badge-secondary">New</span></h6>
+						<span class="badge badge-light badge-style">€13.90</span>
+					</div>
+					<p>Wheat noodles in tasty seafood broth with vegetables</p>
+				</div>
+				<div class="tab-pane fade" id="list-k-bbq" role="tabpanel" aria-labelledby="list-messages-list">
+					<p>All Korean BBQs will be grilled at your table & served with 5 different side dishes & rice — price per portion, minimum order 2 portions per dish</p>
+					<div class="row justify-content-between">
+						<h6>So Bulgogi | 소불고기</h6>
+						<span class="badge badge-light badge-style">€17.90</span>
+					</div>
+					<p>Specially marinated finely sliced beef</p>
+					<div class="row justify-content-between">
+						<h6>Dak Galbi | 닭갈비</h6>
+						<span class="badge badge-light badge-style">€18.90</span>
+					</div>
+					<p>Spicy marinated chicken with sweet potato, cabbage & ddeok (korean rice cake)</p>
+					<div class="row justify-content-between">
+						<h6>Samgyopsal Gui | 삼겹살구이</h6>
+						<span class="badge badge-light badge-style">€18.50</span>
+					</div>
+					<p>Thin slices of pork belly served with lettuce, chili miso-paste & sesame oil</p>
+					<div class="row justify-content-between">
+						<h6>Yachae Gui | 야채구이 <span class="badge badge-pill badge-success">Vegan</span></h6>
+						<span class="badge badge-light badge-style">€16.90</span>
+					</div>
+					<p>Spicy marinated seitan with fresh vegetables & tofu</p>
+				</div>
+				<div class="tab-pane fade" id="list-sides" role="tabpanel" aria-labelledby="list-settings-list">
+					<p>All side dishes or banchans (반찬) apart from the ones below are served free of charge.</p>
+					<div class="row justify-content-between">
+						<h6>Rice | 밥</h6>
+						<span class="badge badge-light badge-style">€1.00</span>
+					</div>
+					<div class="row justify-content-between">
+						<h6>Sesame leaves | 깻잎</h6>
+						<span class="badge badge-light badge-style">€2.50</span>
+					</div>
+					<p>seasonally available</p>
+				</div>
+				<div class="tab-pane fade" id="list-desserts" role="tabpanel" aria-labelledby="list-settings-list">
+					<div class="row justify-content-between">
+						<h6>Green Tea Ice Cream | 녹차아이스</h6>
+						<span class="badge badge-light badge-style">€3.00</span>
+					</div>
+					<p>Two scoops, €1.5 per additional scoop</p>
+					<div class="row justify-content-between">
+						<h6>Black Sesame Ice Cream | 검은깨아이스</h6>
+						<span class="badge badge-light badge-style">€3.00</span>
+					</div>
+					<p>Two scoops, €1.5 per additional scoop</p>
+					<div class="row justify-content-between">
+						<h6>Dessert of the week | 금주의 디저트</h6>
+						<span class="badge badge-light badge-style">€5.50</span>
+					</div>
+					<div class="row justify-content-between">
+						<h6>Pat Bing Su with Misugaru | 미수가루 팥빙수 <span class="badge badge-secondary">New</span></h6>
+						<span class="badge badge-light badge-style">€6.40</span>
+					</div>
+					<p>Shaved ice dessert topped with red bean paste, condensed milk, Korean rice cakes, almonds, fruits, sesame seeds and Korean traditional grain powder</p>
+					<div class="row justify-content-between">
+						<h6>Pat Bing Su with Green Tea | 녹차 팥빙수 <span class="badge badge-secondary">New</span></h6>
+						<span class="badge badge-light badge-style">€6.40</span>
+					</div>
+					<p>Shaved ice dessert topped with red bean paste, condensed milk, Korean rice cakes, almonds, fruits, sesame seeds and green tea powder</p>
+				</div>
+				<div class="tab-pane fade" id="list-drinks" role="tabpanel" aria-labelledby="list-settings-list">
+					<div class="row justify-content-between">
+						<h6>Poricha | 보리차</h6>
+						<span class="badge badge-light badge-style">€2.50</span>
+					</div>
+					<p>Roasted barley</p>
+					<div class="row justify-content-between">
+						<h6>Oksusucha | 옥수수차</h6>
+						<span class="badge badge-light badge-style">€2.50</span>
+					</div>
+					<p>Roasted barley</p>
+					<div class="row justify-content-between">
+						<h6>Daechucha | 대추차</h6>
+						<span class="badge badge-light badge-style">€3.00</span>
+					</div>
+					<p>Jujube-berry</p>
+					<div class="row justify-content-between">
+						<h6>Ggulsaenggangcha | 꿀생강차</h6>
+						<span class="badge badge-light badge-style">€3.00</span>
+					</div>
+					<p>Honey & ginger</p>
+					<div class="row justify-content-between">
+						<h6>Black, Green, Jasmin tea</h6>
+						<span class="badge badge-light badge-style">€2.50</span>
+					</div>
+					<div class="row justify-content-between">
+						<h6>Coffee</h6>
+						<span class="badge badge-light badge-style">€2.00</span>
+					</div>
+					<div class="row justify-content-between">
+						<h6>Korean Coffee</h6>
+						<span class="badge badge-light badge-style">€2.00</span>
+					</div>
+					<p>Instant & sweetened</p>
+					<div class="row justify-content-between">
+						<h6>Korean soft drinks 0,24L</h6>
+						<span class="badge badge-light badge-style">€2.50</span>
+					</div>
+					<p>Shikhye rice punch, coco palm, sweet cinnamon punch, crushed pear juice, bon bon grape juice</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

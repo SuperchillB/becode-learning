@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+
+		body {
+			height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#container {
+			height: 300px;
+			width: 300px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 30px;
+		}
+		#message {
+			height: 100px;
+			width: 100%;
+			margin-top: 30px;
+			text-align: center;
+			opacity: 0;
+			transition: all ease 1s;
+		}
+		
+
+	</style>
+
+</head>
+<body>
+
+	<div id="container">
+		<form>
+			<div>
+				<label for="name">Name</label>
+				<input id="name" type="text">
+			</div>
+			<div>
+				<label for="firstname">First name</label>
+				<input id="firstname" type="text">
+			</div>
+			<div>
+				<label for="date">Date of birth</label>
+				<input id="date" type="date">
+			</div>
+			<div>
+				<label for="place">Place of birth</label>
+				<input id="place" type="text">
+			</div>
+			<div>
+				<label for="job">Position (job)</label>
+				<input id="job" type="text">
+			</div>
+			<div>
+				<label for="company">Employer (company)</label>
+				<input id="company" type="text">
+			</div>
+		</form>
+		<div>
+			<button>Generate sentence</button>
+		</div>
+		<div id="message">
+			
+		</div>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script>
+
+		let inputs = $('input');
+		
+		$('button').on('click', function(e){
+			for(let i = 0, length1 = inputs.length; i < length1; i++){
+				if (inputs[i].value == "") {
+					alert('Please fill in the empty field(s)');
+					e.preventDefault;
+					return false;
+				}
+			}
+			let nameVal = $('#name').val();
+			let firstnameVal = $('#firstname').val();
+			let dateVal = convertDate($('#date').val());
+			let placeVal = $('#place').val();
+			let jobVal = $('#job').val();
+			let companyVal = $('#company').val();
+			$('#message').text(firstnameVal + " " + nameVal + ", born on " + dateVal + " in " + placeVal + ", currently working as a " + jobVal + " at " + companyVal);
+			$('#message').css({
+				opacity: 1
+			})
+		})
+
+		let convertDate = function(date) {
+			let dateParts = date.split("-");
+			let newDate = dateParts[2] + "/" + dateParts[1] + "/" + dateParts[0];
+			return newDate;
+		}
+
+	</script>
+
+</body>
+</html>

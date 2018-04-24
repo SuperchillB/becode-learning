@@ -1,0 +1,93 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*#carrousel {
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrousel ul {
+	padding: 0;
+	width: 100%;
+    list-style-type: none;
+    margin: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#carrousel ul li {
+	list-style-type: none;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+#carrousel img {
+	height: 400px;
+	width: 100%;
+}
+
+.controls {
+	margin-top: 20px;
+}*/
+
+
+#carrousel {
+    width: 600px;
+    margin: auto;
+    /*padding: 10px;*/
+    /*border: 1px solid black;*/
+    overflow: hidden;
+    position: relative;
+}
+
+#carrousel ul {
+    list-style-type: none;
+    /*width: 1800px;*/
+    width: 600px;
+    overflow: hidden;
+    position: relative;  
+  	left: 0px; 
+  	padding: 0;  
+  	margin: 0;
+  	/*transition: all ease 1s;*/
+}
+
+#carrousel ul li {
+	float: left;
+	/*position: relative;*/
+}
+
+#carrousel img {
+	height: 400px;
+	width: 100%;
+}
+
+.controls {
+	margin-top: 20px;
+}
+
+#prev, #next {
+	cursor: pointer;
+	box-shadow: none;
+	height: 30px;
+	width: 40px;
+	border: 2px solid black;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	transition: all ease 0.3s;
+}
+
+#prev:hover, #next:hover {
+	background-color: #fff;
+	color: black;
+}

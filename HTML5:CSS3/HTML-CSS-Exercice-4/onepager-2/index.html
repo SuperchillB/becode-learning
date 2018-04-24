@@ -1,0 +1,147 @@
+<!-- One-pager exercise (website #2) -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Onepager-2</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ruda:400,700,900|Open+Sans:300,400" rel="stylesheet">
+</head>
+<body>
+
+<section id="home" class="nav">
+	<nav>
+		<div>
+			<a href="#home"><img src="onepage-images/qp-logo.png"></a>
+		</div>
+		<ul>
+			<li><a href="#section-4">ABOUT US</a></li>
+			<li><a href="#section-3">SERVICES</a></li>
+			<li><a href="#section-6">PROGRESS</a></li>
+			<li><a href="#footer">CONTACT</a></li>
+		</ul>
+	</nav>
+</section>
+
+<section id="jumbotron">
+	<div class="jumbotron-text">
+		<h1>Creating profitable property portfolios</h1>
+		<h3>Wealth that grows, even when you're not working</h3>
+		<a href="#"><button>DISCOVER THE POSSIBILITIES</button></a>
+	</div>
+</section>
+
+<section id="motto">
+	<div>
+		<h4>Whether you're just starting out, need advice re-starting or are already on your way with a growing portfolio</h4>
+		<h2>Stepping Stone can help</h2>
+	</div>
+</section>
+
+<section id="section-3">
+	<div>
+		<div class="number">1</div>
+		<div>
+			<h3>Get Investment Ready</h3>
+			<h4>Structure and finance</h4>
+		</div>
+		<a href=""><button>START HERE</button></a>
+	</div>
+	<div>
+		<div class="number">2</div>
+		<div>
+			<h3>Master The Transaction</h3>
+			<h4>Getting the details right</h4>
+		</div>
+		<a href=""><button>I'M READY</button></a>
+	</div>
+	<div>
+		<div class="number">3</div>
+		<div>
+			<h3>Build Your Portfolio</h3>
+			<h4>Grow your portfolio</h4>
+		</div>
+		<a href=""><button>TAKE ACTION</button></a>
+	</div>
+</section>
+
+<section id="section-4">
+	<div class="section-4-text">
+		<h3>Stepping Stone helps you buy profitable investment properties.</h3>
+		<h5>Generate Wealth and Income for Life</h5>
+		<p>Stepping Stone helps you build wealth with proven property investment planning with the right strategy and then create an in-depth plan to get you started. <br>
+		Our consultation process is ongoing we will never leave you feeling confused or alone. We bring a fresh perspective, a distincted point of view and many years experience to each portfolio. Not to mention a ridiculous love for what we do and a passion for seeing our clients investment income grow. And you get proven property investment strategy that create portfolios with work when you're not working and a property partner who has your back, no matter what.</p>
+		<a href="#">Let's chat about your property plan</a>
+	</div>
+	<div>
+		<img src="onepage-images/onepager-02-house-drawing.png">
+	</div>
+</section>
+
+<section id="section-5">
+	<div class="section-5-text">
+		<h2>Sign Up Today For Our <span>FREE</span> Investment Property Course</h2>
+	</div>
+	<div>
+		<form>
+			<input type="text" name="name" placeholder="NAME:">
+			<input type="email" name="email" placeholder="EMAIL:">
+			<a href=""><button>Sign Me Up</button></a>
+		</form>
+	</div>
+</section>
+
+<section id="section-6">
+	<div class="section-6-text">
+		<div>
+			<h3>A description of the 4-part property investment course and why people should sign up. Communicate the benefits the course delivers!</h3>
+		</div>
+		<div>
+			<p>Tell prospects more about the 4-part FREE course and learning about finance, strategy, structure, and the purchase ... Communicate the big benefit they will receive so they can [insert action you want them to take]. <br>
+			Plus mention they will get a free subscription to your email newsletter with even more tips and strategies they can use to invest successfully.</p>
+		</div>
+	</div>
+</section>
+
+<section id="section-7">
+	<div class="section-7-text">
+		<div>
+			<h3>Our clients don't settle for just any property... for merely a house on the next street.</h3>
+		</div>
+		<div>
+			<p>Schedule your FREE 20-minute consultation to learn how Stepping Stone can help you start building a successful, income producing, investment property portfolio today!</p>
+			<a href="#"><button>LEARN MORE</button></a>
+		</div>
+	</div>
+</section>
+
+<footer id="footer">
+	<div>
+		<p> National Buyer's Agent & Property Investment Advisors <br>
+		PO Box 2273, Bowral New South Wales 2576, Australia | +61 405 245 547 | License: ABCDEFGHI <br>
+		Copyright 2014 Stepping Stone Property. All Rights Reserved. | Privacy | Disclaimer | Get Started</p>
+	</div>
+</footer>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+        $('a[href^="#"]').on('click', function (e) {
+          e.preventDefault();
+
+          var target = this.hash;
+          var $target = $(target);
+
+          $('html, body').animate({
+            'scrollTop': $target.offset().top
+          }, 600, 'swing');
+        });
+      }); 
+</script>
+</body>
+</html>

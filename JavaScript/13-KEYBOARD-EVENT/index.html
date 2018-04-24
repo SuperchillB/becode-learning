@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		.ex1, .ex2 {
+			height: 200px;
+			width: 400px;
+		}
+		#character {
+			height: 100px;
+			width: 100px;
+			background-color: cyan;
+			margin: 20px;
+		}
+		#up, #down, #left, #right {
+			height: 100px;
+			width: 100px;
+			background-color: cyan;
+			float: left;
+			margin: 20px;
+			transition: all ease 0.3s;
+		}
+		.highlight {
+			opacity: 0.2;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="ex1">
+		<h3>Exercise 1</h3>
+		<div id="character"></div>
+	</div>
+	
+	<div class="ex2">
+		<h3>Exercise 2</h3>
+		<div id="up"></div>
+		<div id="down"></div>
+		<div id="left"></div>
+		<div id="right"></div>
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+</html>
