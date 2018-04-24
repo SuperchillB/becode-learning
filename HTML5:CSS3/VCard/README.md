@@ -1,5 +1,7 @@
 # VCard
-Beginner exercise given by BeCode
 
+21 November 2017
 
-[Link to VCard](https://superchillb.github.io/VCard/)
+Personal VCard built with HTML, CSS, JS and SVG
+
+[Link to VCard](https://superchillb.github.io/becode-learning/HTML5:CSS3/VCard/)
